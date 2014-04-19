@@ -8,17 +8,28 @@ from scipy.spatial.distance import *
 
 
 from Utils import *
+from Content_Based import EADW_content_based
 
 
 #########################################
 ######          UTILS               #####
 #########################################
 
+import numpy as np
+from numpy import linalg
+
+#X
+features = []
+
+#Y
+relevants = []
+
+def lregression(X,y):
+    l = len(y)
+    A = np.vstack([np.array(X).T, np.ones(l)])
+    return linalg.lstsq(A.T,y)[0]
 
 #cache
-
-
-
 usersThatRate = {}
 def getUsersThatRate(movie):
     
@@ -292,9 +303,10 @@ def make_prediction_func(most_similar_func, normalization_func, inverse_normaliz
 
 def prediction_trainning(loader):
         return loader.load_dataSet(args.training)  
-    
+
+w = [0.5,0.5,0]
 def prediction_test(test_path, error_analisys):
-    
+    global w
     with open(test_path) as u_test_file:
         u_tests = u_test_file.readlines()
         
@@ -305,9 +317,22 @@ def prediction_test(test_path, error_analisys):
             u = int(user_id)
             m = int(movie_id)
             
+            
             n = lambda u,m: -1*b(u,m)
             pred_func = make_prediction_func(getMostSimilarMovies,n,b) 
-            predicted_r = pred_func(u,m)
+            
+            item_based_r = pred_func(u,m)
+            content_based_r = EADW_content_based.evaluate(u,m)
+            
+           
+          
+            predicted_r = round(w[0]*item_based_r + w[1]*content_based_r + w[2])
+            
+            features.append((item_based_r, content_based_r))
+            relevants.append(true_r)
+            w = lregression(features,relevants)
+            print w
+          
             
             diff = error_analisys.collect(true_r, predicted_r)
             
@@ -318,11 +343,11 @@ def prediction_test(test_path, error_analisys):
             print "Numero de correctos %d" % error_analisys.getNCorrects()
             print ""
             
-            if diff > 2.0:
-                print u
-                print m
-                print "end"
-                return
+            #if diff > 2.0:
+                #print u
+                #print m
+                #print "end"
+                #return
             
                 
         print "end"
@@ -342,7 +367,9 @@ if __name__ == "__main__":
     dataSet = prediction_trainning(loader)
     
     error_analisys = Error_Analisys()
+    
     prediction_test(args.test,error_analisys)
+    
     
     if args.online == True:
         prompt()

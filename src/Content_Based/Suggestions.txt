@@ -1,0 +1,1634 @@
+Movie:Empire Strikes Back, The (1980) Rating:0.681967 Genres:War|Sci-Fi|Romance|Drama|Adventure|Action|
+Movie:Diva (1981) Rating:0.580328 Genres:Action|Drama|Thriller|Romance|Mystery|
+Movie:Return of the Jedi (1983) Rating:0.560656 Genres:Adventure|Action|Sci-Fi|Romance|War|
+Movie:Star Wars (1977) Rating:0.560656 Genres:Adventure|Action|Sci-Fi|Romance|War|
+Movie:Escape from L.A. (1996) Rating:0.550820 Genres:Adventure|Action|Thriller|Sci-Fi|
+Movie:Escape from New York (1981) Rating:0.550820 Genres:Adventure|Action|Thriller|Sci-Fi|
+Movie:Spawn (1997) Rating:0.550820 Genres:Adventure|Action|Thriller|Sci-Fi|
+Movie:Lost World: Jurassic Park, The (1997) Rating:0.550820 Genres:Adventure|Action|Thriller|Sci-Fi|
+Movie:Abyss, The (1989) Rating:0.550820 Genres:Adventure|Action|Thriller|Sci-Fi|
+Movie:First Knight (1995) Rating:0.547541 Genres:Adventure|Action|Drama|Romance|
+Movie:Devil's Own, The (1997) Rating:0.544262 Genres:Action|Drama|Thriller|War|
+Movie:Muppet Treasure Island (1996) Rating:0.537705 Genres:Adventure|Action|Thriller|Comedy|Musical|
+Movie:Batman (1989) Rating:0.534426 Genres:Adventure|Action|Drama|Crime|
+Movie:Hard Target (1993) Rating:0.531148 Genres:Adventure|Action|Thriller|Crime|
+Movie:Transformers: The Movie, The (1986) Rating:0.511475 Genres:War|Thriller|Sci-Fi|Children's|Animation|Action|
+Movie:Army of Darkness (1993) Rating:0.508197 Genres:Adventure|Action|Sci-Fi|Comedy|Horror|
+Movie:Aliens (1986) Rating:0.501639 Genres:Action|Thriller|Sci-Fi|War|
+Movie:From Dusk Till Dawn (1996) Rating:0.501639 Genres:Action|Thriller|Crime|Comedy|Horror|
+Movie:Crying Game, The (1992) Rating:0.498361 Genres:Action|Drama|Romance|War|
+Movie:Hostile Intentions (1994) Rating:0.488525 Genres:Action|Drama|Thriller|
+Movie:Condition Red (1995) Rating:0.488525 Genres:Action|Drama|Thriller|
+Movie:Tough and Deadly (1995) Rating:0.488525 Genres:Action|Drama|Thriller|
+Movie:Fire Down Below (1997) Rating:0.488525 Genres:Action|Drama|Thriller|
+Movie:Mercury Rising (1998) Rating:0.488525 Genres:Action|Drama|Thriller|
+Movie:Starship Troopers (1997) Rating:0.488525 Genres:Adventure|Action|Sci-Fi|War|
+Movie:Men in Black (1997) Rating:0.488525 Genres:Adventure|Action|Sci-Fi|Comedy|
+Movie:Smilla's Sense of Snow (1997) Rating:0.488525 Genres:Action|Drama|Thriller|
+Movie:Outbreak (1995) Rating:0.488525 Genres:Action|Drama|Thriller|
+Movie:Apollo 13 (1995) Rating:0.488525 Genres:Action|Drama|Thriller|
+Movie:Best Men (1997) Rating:0.485246 Genres:Action|Drama|Crime|Comedy|
+Movie:African Queen, The (1951) Rating:0.481967 Genres:Adventure|Action|Romance|War|
+Movie:True Lies (1994) Rating:0.481967 Genres:Adventure|Action|Romance|Comedy|
+Movie:Princess Bride, The (1987) Rating:0.481967 Genres:Adventure|Action|Romance|Comedy|
+Movie:Ben-Hur (1959) Rating:0.475410 Genres:Adventure|Action|Drama|
+Movie:Surviving the Game (1994) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Firestorm (1998) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Con Air (1997) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Anaconda (1997) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Maximum Risk (1996) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Chain Reaction (1996) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Daylight (1996) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Clear and Present Danger (1994) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Twister (1996) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Rock, The (1996) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:GoldenEye (1995) Rating:0.472131 Genres:Adventure|Action|Thriller|
+Movie:Batman Returns (1992) Rating:0.468852 Genres:Adventure|Action|Crime|Comedy|
+Movie:Batman Forever (1995) Rating:0.468852 Genres:Adventure|Action|Crime|Comedy|
+Movie:Alien 3 (1992) Rating:0.465574 Genres:Action|Thriller|Sci-Fi|Horror|
+Movie:Event Horizon (1997) Rating:0.465574 Genres:Action|Thriller|Sci-Fi|Mystery|
+Movie:Alien (1979) Rating:0.465574 Genres:Action|Thriller|Sci-Fi|Horror|
+Movie:Operation Dumbo Drop (1995) Rating:0.465574 Genres:Adventure|Action|Comedy|War|
+Movie:Conspiracy Theory (1997) Rating:0.459016 Genres:Action|Thriller|Romance|Mystery|
+Movie:Heavy Metal (1981) Rating:0.455738 Genres:Adventure|Action|Horror|Sci-Fi|Animation|
+Movie:Congo (1995) Rating:0.452459 Genres:Adventure|Action|Sci-Fi|Mystery|
+Movie:Nemesis 2: Nebula (1995) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Solo (1996) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Lost in Space (1998) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Arrival, The (1996) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Johnny Mnemonic (1995) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Face/Off (1997) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Terminator, The (1984) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Lawnmower Man, The (1992) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Terminator 2: Judgment Day (1991) Rating:0.445902 Genres:Action|Thriller|Sci-Fi|
+Movie:Man in the Iron Mask, The (1998) Rating:0.442623 Genres:Action|Drama|Romance|
+Movie:Titanic (1997) Rating:0.442623 Genres:Action|Drama|Romance|
+Movie:Cyrano de Bergerac (1990) Rating:0.442623 Genres:Action|Drama|Romance|
+Movie:Jumanji (1995) Rating:0.439344 Genres:Adventure|Action|Sci-Fi|Children's|Fantasy|
+Movie:Super Mario Bros. (1993) Rating:0.439344 Genres:Adventure|Action|Sci-Fi|Children's|
+Movie:Speed 2: Cruise Control (1997) Rating:0.439344 Genres:Action|Thriller|Romance|
+Movie:Tomorrow Never Dies (1997) Rating:0.439344 Genres:Action|Thriller|Romance|
+Movie:Saint, The (1997) Rating:0.439344 Genres:Action|Thriller|Romance|
+Movie:Speed (1994) Rating:0.439344 Genres:Action|Thriller|Romance|
+Movie:Mars Attacks! (1996) Rating:0.439344 Genres:Action|Sci-Fi|Comedy|War|
+Movie:Crow, The (1994) Rating:0.439344 Genres:Action|Thriller|Romance|
+Movie:Desperado (1995) Rating:0.439344 Genres:Action|Thriller|Romance|
+Movie:Time Tracers (1995) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Star Trek V: The Final Frontier (1989) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Star Trek: The Motion Picture (1979) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Star Trek: Generations (1994) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Judge Dredd (1995) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Star Trek IV: The Voyage Home (1986) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Star Trek III: The Search for Spock (1984) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Star Trek: The Wrath of Khan (1982) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Star Trek VI: The Undiscovered Country (1991) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Star Trek: First Contact (1996) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Jurassic Park (1993) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Stargate (1994) Rating:0.432787 Genres:Adventure|Action|Sci-Fi|
+Movie:Lashou shentan (1992) Rating:0.429508 Genres:Action|Drama|Crime|
+Movie:Dead Presidents (1995) Rating:0.429508 Genres:Action|Drama|Crime|
+Movie:Menace II Society (1993) Rating:0.429508 Genres:Action|Drama|Crime|
+Movie:Evil Dead II (1987) Rating:0.429508 Genres:Adventure|Action|Comedy|Horror|
+Movie:Godfather: Part II, The (1974) Rating:0.429508 Genres:Action|Drama|Crime|
+Movie:Godfather, The (1972) Rating:0.429508 Genres:Action|Drama|Crime|
+Movie:Cutthroat Island (1995) Rating:0.426230 Genres:Adventure|Action|Romance|
+Movie:Heaven & Earth (1993) Rating:0.426230 Genres:Action|Drama|War|
+Movie:Glory (1989) Rating:0.426230 Genres:Action|Drama|War|
+Movie:Boot, Das (1981) Rating:0.426230 Genres:Action|Drama|War|
+Movie:G.I. Jane (1997) Rating:0.426230 Genres:Action|Drama|War|
+Movie:Full Metal Jacket (1987) Rating:0.426230 Genres:Action|Drama|War|
+Movie:Faster Pussycat! Kill! Kill! (1965) Rating:0.426230 Genres:Action|Drama|Comedy|
+Movie:Braveheart (1995) Rating:0.426230 Genres:Action|Drama|War|
+Movie:Get Shorty (1995) Rating:0.426230 Genres:Action|Drama|Comedy|
+Movie:Hackers (1995) Rating:0.426230 Genres:Action|Thriller|Crime|
+Movie:Heat (1995) Rating:0.426230 Genres:Action|Thriller|Crime|
+Movie:Peacemaker, The (1997) Rating:0.422951 Genres:Action|Thriller|War|
+Movie:Cliffhanger (1993) Rating:0.413115 Genres:Adventure|Action|Crime|
+Movie:Batman & Robin (1997) Rating:0.413115 Genres:Adventure|Action|Crime|
+Movie:Rumble in the Bronx (1995) Rating:0.413115 Genres:Adventure|Action|Crime|
+Movie:Three Musketeers, The (1993) Rating:0.409836 Genres:Adventure|Action|Comedy|
+Movie:Tank Girl (1995) Rating:0.393443 Genres:Action|Sci-Fi|Comedy|Musical|
+Movie:Rising Sun (1993) Rating:0.390164 Genres:Action|Drama|Mystery|
+Movie:Last Man Standing (1996) Rating:0.386885 Genres:Western|Action|Drama|
+Movie:Magnificent Seven, The (1954) Rating:0.386885 Genres:Western|Action|Drama|
+Movie:Strange Days (1995) Rating:0.386885 Genres:Action|Sci-Fi|Crime|
+Movie:Power 98 (1995) Rating:0.386885 Genres:Action|Thriller|Mystery|
+Movie:Fallen (1998) Rating:0.386885 Genres:Action|Thriller|Mystery|
+Movie:Independence Day (ID4) (1996) Rating:0.383607 Genres:Action|Sci-Fi|War|
+Movie:Truth or Consequences, N.M. (1997) Rating:0.380328 Genres:Action|Crime|Romance|
+Movie:True Romance (1993) Rating:0.380328 Genres:Action|Crime|Romance|
+Movie:Last of the Mohicans, The (1992) Rating:0.377049 Genres:Action|Romance|War|
+Movie:Mission: Impossible (1996) Rating:0.373770 Genres:Adventure|Action|Mystery|
+Movie:Quick and the Dead, The (1995) Rating:0.370492 Genres:Adventure|Action|Western|
+Movie:Bound (1996) Rating:0.370492 Genres:Romance|Drama|Crime|Thriller|
+Movie:Professional, The (1994) Rating:0.370492 Genres:Romance|Drama|Crime|Thriller|
+Movie:Target (1995) Rating:0.370492 Genres:Action|Drama|
+Movie:Men With Guns (1997) Rating:0.370492 Genres:Action|Drama|
+Movie:Tokyo Fist (1995) Rating:0.370492 Genres:Action|Drama|
+Movie:Romper Stomper (1992) Rating:0.370492 Genres:Action|Drama|
+Movie:Men of Means (1998) Rating:0.370492 Genres:Action|Drama|
+Movie:Johnny 100 Pesos (1993) Rating:0.370492 Genres:Action|Drama|
+Movie:Marked for Death (1990) Rating:0.370492 Genres:Action|Drama|
+Movie:Palookaville (1996) Rating:0.370492 Genres:Action|Drama|
+Movie:Program, The (1993) Rating:0.370492 Genres:Action|Drama|
+Movie:Perfect World, A (1993) Rating:0.370492 Genres:Action|Drama|
+Movie:Mad City (1997) Rating:0.370492 Genres:Action|Drama|
+Movie:Mirage (1995) Rating:0.367213 Genres:Action|Thriller|
+Movie:Shopping (1994) Rating:0.367213 Genres:Action|Thriller|
+Movie:The Courtyard (1995) Rating:0.367213 Genres:Action|Thriller|
+Movie:Stag (1997) Rating:0.367213 Genres:Action|Thriller|
+Movie:Die xue shuang xiong (Killer, The) (1989) Rating:0.367213 Genres:Action|Thriller|
+Movie:U.S. Marshalls (1998) Rating:0.367213 Genres:Action|Thriller|
+Movie:Glimmer Man, The (1996) Rating:0.367213 Genres:Action|Thriller|
+Movie:Nick of Time (1995) Rating:0.367213 Genres:Action|Thriller|
+Movie:Replacement Killers, The (1998) Rating:0.367213 Genres:Action|Thriller|
+Movie:Crow: City of Angels, The (1996) Rating:0.367213 Genres:Action|Thriller|
+Movie:Jackal, The (1997) Rating:0.367213 Genres:Action|Thriller|
+Movie:Executive Decision (1996) Rating:0.367213 Genres:Action|Thriller|
+Movie:In the Line of Fire (1993) Rating:0.367213 Genres:Action|Thriller|
+Movie:Eraser (1996) Rating:0.367213 Genres:Action|Thriller|
+Movie:Blown Away (1994) Rating:0.367213 Genres:Action|Thriller|
+Movie:Die Hard: With a Vengeance (1995) Rating:0.367213 Genres:Action|Thriller|
+Movie:Broken Arrow (1996) Rating:0.367213 Genres:Action|Thriller|
+Movie:Hard Rain (1998) Rating:0.367213 Genres:Action|Thriller|
+Movie:Dante's Peak (1997) Rating:0.367213 Genres:Action|Thriller|
+Movie:Air Force One (1997) Rating:0.367213 Genres:Action|Thriller|
+Movie:Breakdown (1997) Rating:0.367213 Genres:Action|Thriller|
+Movie:River Wild, The (1994) Rating:0.367213 Genres:Action|Thriller|
+Movie:Hunt for Red October, The (1990) Rating:0.367213 Genres:Action|Thriller|
+Movie:Die Hard 2 (1990) Rating:0.367213 Genres:Action|Thriller|
+Movie:Long Kiss Goodnight, The (1996) Rating:0.367213 Genres:Action|Thriller|
+Movie:Die Hard (1988) Rating:0.367213 Genres:Action|Thriller|
+Movie:Supercop (1992) Rating:0.367213 Genres:Action|Thriller|
+Movie:Fugitive, The (1993) Rating:0.367213 Genres:Action|Thriller|
+Movie:Natural Born Killers (1994) Rating:0.367213 Genres:Action|Thriller|
+Movie:Pagemaster, The (1994) Rating:0.363934 Genres:Adventure|Action|Fantasy|Children's|Animation|
+Movie:Warriors of Virtue (1997) Rating:0.360656 Genres:Adventure|Action|Children's|Fantasy|
+Movie:Turbo: A Power Rangers Movie (1997) Rating:0.360656 Genres:Adventure|Action|Children's|
+Movie:Hot Shots! Part Deux (1993) Rating:0.360656 Genres:Action|Comedy|War|
+Movie:Good Man in Africa, A (1994) Rating:0.354098 Genres:Adventure|Action|
+Movie:Quest, The (1996) Rating:0.354098 Genres:Adventure|Action|
+Movie:Mortal Kombat: Annihilation (1997) Rating:0.354098 Genres:Adventure|Action|
+Movie:Fled (1996) Rating:0.354098 Genres:Adventure|Action|
+Movie:Kull the Conqueror (1997) Rating:0.354098 Genres:Adventure|Action|
+Movie:Conan the Barbarian (1981) Rating:0.354098 Genres:Adventure|Action|
+Movie:Waterworld (1995) Rating:0.354098 Genres:Adventure|Action|
+Movie:Mortal Kombat (1995) Rating:0.354098 Genres:Adventure|Action|
+Movie:Adventures of Robin Hood, The (1938) Rating:0.354098 Genres:Adventure|Action|
+Movie:Dragonheart (1996) Rating:0.354098 Genres:Adventure|Action|Fantasy|
+Movie:Highlander (1986) Rating:0.354098 Genres:Adventure|Action|
+Movie:Kull the Conqueror (1997) Rating:0.354098 Genres:Adventure|Action|
+Movie:Indiana Jones and the Last Crusade (1989) Rating:0.354098 Genres:Adventure|Action|
+Movie:Raiders of the Lost Ark (1981) Rating:0.354098 Genres:Adventure|Action|
+Movie:Ghost and the Darkness, The (1996) Rating:0.354098 Genres:Adventure|Action|
+Movie:Hellraiser: Bloodline (1996) Rating:0.347541 Genres:Action|Sci-Fi|Horror|
+Movie:Deep Rising (1998) Rating:0.347541 Genres:Action|Sci-Fi|Horror|
+Movie:Alien: Resurrection (1997) Rating:0.347541 Genres:Action|Sci-Fi|Horror|
+Movie:2001: A Space Odyssey (1968) Rating:0.337705 Genres:Thriller|Drama|Sci-Fi|Mystery|
+Movie:Highlander III: The Sorcerer (1994) Rating:0.327869 Genres:Action|Sci-Fi|
+Movie:No Escape (1994) Rating:0.327869 Genres:Action|Sci-Fi|
+Movie:Barb Wire (1996) Rating:0.327869 Genres:Action|Sci-Fi|
+Movie:Timecop (1994) Rating:0.327869 Genres:Action|Sci-Fi|
+Movie:Demolition Man (1993) Rating:0.327869 Genres:Action|Sci-Fi|
+Movie:Fifth Element, The (1997) Rating:0.327869 Genres:Action|Sci-Fi|
+Movie:U Turn (1997) Rating:0.327869 Genres:Action|Crime|Mystery|
+Movie:Young Guns II (1990) Rating:0.321311 Genres:Western|Action|Comedy|
+Movie:Days of Thunder (1990) Rating:0.321311 Genres:Action|Romance|
+Movie:Butch Cassidy and the Sundance Kid (1969) Rating:0.321311 Genres:Western|Action|Comedy|
+Movie:Young Guns (1988) Rating:0.321311 Genres:Western|Action|Comedy|
+Movie:Top Gun (1986) Rating:0.321311 Genres:Action|Romance|
+Movie:Maverick (1994) Rating:0.321311 Genres:Western|Action|Comedy|
+Movie:Kid in King Arthur's Court, A (1995) Rating:0.318033 Genres:Sci-Fi|Romance|Fantasy|Comedy|Children's|Adventure|
+Movie:Gattaca (1997) Rating:0.318033 Genres:Drama|Sci-Fi|Thriller|
+Movie:Wild Things (1998) Rating:0.318033 Genres:Drama|Thriller|Crime|Mystery|
+Movie:Blues Brothers 2000 (1998) Rating:0.314754 Genres:Action|Comedy|Musical|
+Movie:Blues Brothers, The (1980) Rating:0.314754 Genres:Action|Comedy|Musical|
+Movie:Witness (1985) Rating:0.311475 Genres:Drama|Romance|Thriller|
+Movie:Wings of the Dove, The (1997) Rating:0.311475 Genres:Drama|Romance|Thriller|
+Movie:King of New York (1990) Rating:0.308197 Genres:Action|Crime|
+Movie:New York Cop (1996) Rating:0.308197 Genres:Action|Crime|
+Movie:Set It Off (1996) Rating:0.308197 Genres:Action|Crime|
+Movie:Akira (1988) Rating:0.304918 Genres:Adventure|Thriller|Sci-Fi|Animation|
+Movie:Jerky Boys, The (1994) Rating:0.304918 Genres:Action|Comedy|
+Movie:Cowboy Way, The (1994) Rating:0.304918 Genres:Action|Comedy|
+Movie:Low Down Dirty Shame, A (1994) Rating:0.304918 Genres:Action|Comedy|
+Movie:I Love Trouble (1994) Rating:0.304918 Genres:Action|Comedy|
+Movie:Money Talks (1997) Rating:0.304918 Genres:Action|Comedy|
+Movie:Money Talks (1997) Rating:0.304918 Genres:Action|Comedy|
+Movie:Beverly Hills Ninja (1997) Rating:0.304918 Genres:Action|Comedy|
+Movie:Last Action Hero (1993) Rating:0.304918 Genres:Action|Comedy|
+Movie:Beverly Hills Cop III (1994) Rating:0.304918 Genres:Action|Comedy|
+Movie:Sphere (1998) Rating:0.301639 Genres:Adventure|Thriller|Sci-Fi|
+Movie:Guilty as Sin (1993) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:Kiss of Death (1995) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:Amateur (1994) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:Once Upon a Time in America (1984) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:Desperate Measures (1998) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:Kiss the Girls (1997) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:Desperate Measures (1998) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:Fargo (1996) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:Copycat (1995) Rating:0.298361 Genres:Drama|Crime|Thriller|
+Movie:House of Yes, The (1997) Rating:0.295082 Genres:Drama|Thriller|Comedy|
+Movie:Crimson Tide (1995) Rating:0.295082 Genres:War|Drama|Thriller|
+Movie:Stand by Me (1986) Rating:0.281967 Genres:Adventure|Drama|Comedy|
+Movie:Blood Beach (1981) Rating:0.268852 Genres:Action|Horror|
+Movie:Jaws 3-D (1983) Rating:0.268852 Genres:Action|Horror|
+Movie:Jaws 2 (1978) Rating:0.268852 Genres:Action|Horror|
+Movie:Jaws (1975) Rating:0.268852 Genres:Action|Horror|
+Movie:Charade (1963) Rating:0.265574 Genres:Thriller|Romance|Comedy|Mystery|
+Movie:Good, The Bad and The Ugly, The (1966) Rating:0.265574 Genres:Western|Action|
+Movie:Legends of the Fall (1994) Rating:0.265574 Genres:Western|War|Drama|Romance|
+Movie:Client, The (1994) Rating:0.259016 Genres:Drama|Thriller|Mystery|
+Movie:Sneakers (1992) Rating:0.259016 Genres:Drama|Sci-Fi|Crime|
+Movie:Next Karate Kid, The (1994) Rating:0.255738 Genres:Action|Children's|
+Movie:Mighty Morphin Power Rangers: The Movie (1995) Rating:0.255738 Genres:Action|Children's|
+Movie:3 Ninjas: High Noon At Mega Mountain (1998) Rating:0.255738 Genres:Action|Children's|
+Movie:Midnight in the Garden of Good and Evil (1997) Rating:0.255738 Genres:Drama|Crime|Comedy|Mystery|
+Movie:Thieves (Voleurs, Les) (1996) Rating:0.252459 Genres:Romance|Drama|Crime|
+Movie:Big Lebowski, The (1998) Rating:0.252459 Genres:Thriller|Crime|Comedy|Mystery|
+Movie:Things to Do in Denver when You're Dead (1995) Rating:0.252459 Genres:Romance|Drama|Crime|
+Movie:Hunted, The (1995) Rating:0.249180 Genres:Action|
+Movie:Colonel Chabert, Le (1994) Rating:0.249180 Genres:War|Drama|Romance|
+Movie:I Like It Like That (1994) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:Coldblooded (1995) Rating:0.249180 Genres:Action|
+Movie:Street Fighter (1994) Rating:0.249180 Genres:Action|
+Movie:Specialist, The (1994) Rating:0.249180 Genres:Action|
+Movie:Stranger, The (1994) Rating:0.249180 Genres:Action|
+Movie:Bird of Prey (1996) Rating:0.249180 Genres:Action|
+Movie:American Strays (1996) Rating:0.249180 Genres:Action|
+Movie:The Deadly Cure (1996) Rating:0.249180 Genres:Action|
+Movie:Getaway, The (1994) Rating:0.249180 Genres:Action|
+Movie:Best of the Best 3: No Turning Back (1995) Rating:0.249180 Genres:Action|
+Movie:Metro (1997) Rating:0.249180 Genres:Action|
+Movie:Under Siege 2: Dark Territory (1995) Rating:0.249180 Genres:Action|
+Movie:Judgment Night (1993) Rating:0.249180 Genres:Action|
+Movie:Twelfth Night (1996) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:What Happened Was... (1994) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:Double Team (1997) Rating:0.249180 Genres:Action|
+Movie:Bloodsport 2 (1995) Rating:0.249180 Genres:Action|
+Movie:Shooter, The (1995) Rating:0.249180 Genres:Action|
+Movie:Substitute, The (1996) Rating:0.249180 Genres:Action|
+Movie:Brassed Off (1996) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:In the Line of Duty 2 (1987) Rating:0.249180 Genres:Action|
+Movie:Bulletproof (1996) Rating:0.249180 Genres:Action|
+Movie:Shadow, The (1994) Rating:0.249180 Genres:Action|
+Movie:Bad Company (1995) Rating:0.249180 Genres:Action|
+Movie:Drop Zone (1994) Rating:0.249180 Genres:Action|
+Movie:Don Juan DeMarco (1995) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:Something to Talk About (1995) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:Fair Game (1995) Rating:0.249180 Genres:Action|
+Movie:Corrina, Corrina (1994) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:American President, The (1995) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:Police Story 4: Project S (Chao ji ji hua) (1993) Rating:0.249180 Genres:Action|
+Movie:Terminal Velocity (1994) Rating:0.249180 Genres:Action|
+Movie:Rob Roy (1995) Rating:0.249180 Genres:War|Drama|Romance|
+Movie:Money Train (1995) Rating:0.249180 Genres:Action|
+Movie:Manhattan (1979) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:Wings of Desire (1987) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:Casablanca (1942) Rating:0.249180 Genres:War|Drama|Romance|
+Movie:Jackie Chan's First Strike (1996) Rating:0.249180 Genres:Action|
+Movie:Striking Distance (1993) Rating:0.249180 Genres:Action|
+Movie:Sudden Death (1995) Rating:0.249180 Genres:Action|
+Movie:English Patient, The (1996) Rating:0.249180 Genres:War|Drama|Romance|
+Movie:Steel (1997) Rating:0.249180 Genres:Action|
+Movie:Under Siege (1992) Rating:0.249180 Genres:Action|
+Movie:Cinema Paradiso (1988) Rating:0.249180 Genres:Drama|Romance|Comedy|
+Movie:Gone with the Wind (1939) Rating:0.249180 Genres:War|Drama|Romance|
+Movie:Bad Boys (1995) Rating:0.249180 Genres:Action|
+Movie:To Catch a Thief (1955) Rating:0.245902 Genres:Thriller|Romance|Comedy|
+Movie:Ghost (1990) Rating:0.245902 Genres:Thriller|Romance|Comedy|
+Movie:So I Married an Axe Murderer (1993) Rating:0.245902 Genres:Thriller|Romance|Comedy|
+Movie:Wizard of Oz, The (1939) Rating:0.242623 Genres:Adventure|Drama|Musical|Children's|
+Movie:Dances with Wolves (1990) Rating:0.242623 Genres:Adventure|Western|Drama|
+Movie:Spanish Prisoner, The (1997) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Babysitter, The (1995) Rating:0.239344 Genres:Drama|Thriller|
+Movie:I Can't Sleep (J'ai pas sommeil) (1994) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Loaded (1994) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Color of Night (1994) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Poison Ivy II (1995) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Caught (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Death and the Maiden (1994) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Trigger Effect, The (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Eye for an Eye (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Some Folks Call It a Sling Blade (1993) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Murder in the First (1995) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Bloody Child, The (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Ransom (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Last Supper, The (1995) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Juror, The (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:City Hall (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Volcano (1997) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Extreme Measures (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Primal Fear (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Kalifornia (1993) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Heavenly Creatures (1994) Rating:0.239344 Genres:Fantasy|Drama|Thriller|
+Movie:Mary Reilly (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Crash (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Apt Pupil (1998) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Sling Blade (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Diabolique (1996) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Silence of the Lambs, The (1991) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Firm, The (1993) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Dolores Claiborne (1994) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Disclosure (1994) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Taxi Driver (1976) Rating:0.239344 Genres:Drama|Thriller|
+Movie:Hana-bi (1997) Rating:0.236066 Genres:Drama|Crime|Comedy|
+Movie:C'est arrivé près de chez vous (1992) Rating:0.236066 Genres:Drama|Crime|Comedy|
+Movie:Buddy (1997) Rating:0.232787 Genres:Adventure|Drama|Children's|
+Movie:To Be or Not to Be (1942) Rating:0.232787 Genres:War|Drama|Comedy|
+Movie:Renaissance Man (1994) Rating:0.232787 Genres:War|Drama|Comedy|
+Movie:Free Willy 3: The Rescue (1997) Rating:0.232787 Genres:Adventure|Drama|Children's|
+Movie:Free Willy (1993) Rating:0.232787 Genres:Adventure|Drama|Children's|
+Movie:Free Willy 2: The Adventure Home (1995) Rating:0.232787 Genres:Adventure|Drama|Children's|
+Movie:Old Man and the Sea, The (1958) Rating:0.226230 Genres:Adventure|Drama|
+Movie:War, The (1994) Rating:0.226230 Genres:Adventure|Drama|
+Movie:White Squall (1996) Rating:0.226230 Genres:Adventure|Drama|
+Movie:Edge, The (1997) Rating:0.222951 Genres:Adventure|Thriller|
+Movie:Devil's Advocate, The (1997) Rating:0.216393 Genres:Thriller|Crime|Mystery|Horror|
+Movie:Body Snatchers (1993) Rating:0.216393 Genres:Thriller|Sci-Fi|Horror|
+Movie:Body Snatchers (1993) Rating:0.216393 Genres:Thriller|Sci-Fi|Horror|
+Movie:Flesh and Bone (1993) Rating:0.213115 Genres:Drama|Romance|Mystery|
+Movie:Chungking Express (1994) Rating:0.213115 Genres:Drama|Romance|Mystery|
+Movie:Spellbound (1945) Rating:0.209836 Genres:Thriller|Romance|Mystery|
+Movie:Boxing Helena (1993) Rating:0.209836 Genres:Thriller|Romance|Mystery|
+Movie:Psycho (1960) Rating:0.209836 Genres:Thriller|Romance|Horror|
+Movie:Devil in a Blue Dress (1995) Rating:0.206557 Genres:Film-Noir|Thriller|Crime|Mystery|
+Movie:E.T. the Extra-Terrestrial (1982) Rating:0.206557 Genres:Fantasy|Drama|Sci-Fi|Children's|
+Movie:Nutty Professor, The (1996) Rating:0.206557 Genres:Fantasy|Sci-Fi|Romance|Comedy|
+Movie:L.A. Confidential (1997) Rating:0.206557 Genres:Film-Noir|Thriller|Crime|Mystery|
+Movie:Dark City (1998) Rating:0.206557 Genres:Film-Noir|Thriller|Sci-Fi|
+Movie:MURDER and murder (1996) Rating:0.200000 Genres:Drama|Crime|Mystery|
+Movie:Until the End of the World (Bis ans Ende der Welt) (1991) Rating:0.200000 Genres:Drama|Sci-Fi|
+Movie:Notorious (1946) Rating:0.200000 Genres:Film-Noir|Thriller|Romance|
+Movie:Day the Earth Stood Still, The (1951) Rating:0.200000 Genres:Drama|Sci-Fi|
+Movie:Cop Land (1997) Rating:0.200000 Genres:Drama|Crime|Mystery|
+Movie:Contact (1997) Rating:0.200000 Genres:Drama|Sci-Fi|
+Movie:Twelve Monkeys (1995) Rating:0.200000 Genres:Drama|Sci-Fi|
+Movie:Robocop 3 (1993) Rating:0.196721 Genres:Thriller|Sci-Fi|
+Movie:Virtuosity (1995) Rating:0.196721 Genres:Thriller|Sci-Fi|
+Movie:Island of Dr. Moreau, The (1996) Rating:0.196721 Genres:Thriller|Sci-Fi|
+Movie:Unforgettable (1996) Rating:0.196721 Genres:Thriller|Sci-Fi|
+Movie:Lawnmower Man 2: Beyond Cyberspace (1996) Rating:0.196721 Genres:Thriller|Sci-Fi|
+Movie:Mimic (1997) Rating:0.196721 Genres:Thriller|Sci-Fi|
+Movie:Net, The (1995) Rating:0.196721 Genres:Thriller|Sci-Fi|
+Movie:Sliding Doors (1998) Rating:0.193443 Genres:Drama|Romance|
+Movie:Rough Magic (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Frankie Starlight (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Moonlight and Valentino (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Mr. Jones (1993) Rating:0.193443 Genres:Drama|Romance|
+Movie:Sliding Doors (1998) Rating:0.193443 Genres:Drama|Romance|
+Movie:When Night Is Falling (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Picture Bride (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Inventing the Abbotts (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:'Til There Was You (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:Penny Serenade (1941) Rating:0.193443 Genres:Drama|Romance|
+Movie:Love Affair (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:Country Life (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:Blue Sky (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:Bliss (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:Love! Valour! Compassion! (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:Beautiful Thing (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Feeling Minnesota (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Some Kind of Wonderful (1987) Rating:0.193443 Genres:Drama|Romance|
+Movie:Carried Away (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Ghost and Mrs. Muir, The (1947) Rating:0.193443 Genres:Drama|Romance|
+Movie:Anna Karenina (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:Before Sunrise (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:How to Make an American Quilt (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Farewell My Concubine (1993) Rating:0.193443 Genres:Drama|Romance|
+Movie:Oscar & Lucinda (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:Great Expectations (1998) Rating:0.193443 Genres:Drama|Romance|
+Movie:Afterglow (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:She's So Lovely (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:To Gillian on Her 37th Birthday (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:One Fine Day (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:It Could Happen to You (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:Jane Eyre (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Shadowlands (1993) Rating:0.193443 Genres:Drama|Romance|
+Movie:Go Fish (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:Queen Margot (Reine Margot, La) (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:Immortal Beloved (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:Circle of Friends (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Home for the Holidays (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Carrington (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:House of the Spirits, The (1993) Rating:0.193443 Genres:Drama|Romance|
+Movie:Somewhere in Time (1980) Rating:0.193443 Genres:Drama|Romance|
+Movie:Arsenic and Old Lace (1944) Rating:0.193443 Genres:Thriller|Comedy|Mystery|
+Movie:The Innocent (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:Heavy (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Piano, The (1993) Rating:0.193443 Genres:Drama|Romance|
+Movie:Walk in the Clouds, A (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Shine (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Like Water For Chocolate (Como agua para chocolate) (1992) Rating:0.193443 Genres:Drama|Romance|
+Movie:William Shakespeare's Romeo and Juliet (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Bridges of Madison County, The (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Mrs. Brown (Her Majesty, Mrs. Brown) (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:Emma (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Up Close and Personal (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Bed of Roses (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Leaving Las Vegas (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Sense and Sensibility (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Chasing Amy (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:Pillow Book, The (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Chasing Amy (1997) Rating:0.193443 Genres:Drama|Romance|
+Movie:Jerry Maguire (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Room with a View, A (1986) Rating:0.193443 Genres:Drama|Romance|
+Movie:Graduate, The (1967) Rating:0.193443 Genres:Drama|Romance|
+Movie:Breakfast at Tiffany's (1961) Rating:0.193443 Genres:Drama|Romance|
+Movie:Phenomenon (1996) Rating:0.193443 Genres:Drama|Romance|
+Movie:Mad Love (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Angels and Insects (1995) Rating:0.193443 Genres:Drama|Romance|
+Movie:Postino, Il (1994) Rating:0.193443 Genres:Drama|Romance|
+Movie:B. Monkey (1998) Rating:0.190164 Genres:Thriller|Romance|
+Movie:Life Less Ordinary, A (1997) Rating:0.190164 Genres:Thriller|Romance|
+Movie:Grifters, The (1990) Rating:0.190164 Genres:Film-Noir|Drama|Crime|
+Movie:Rebecca (1940) Rating:0.190164 Genres:Thriller|Romance|
+Movie:Hoodlum (1997) Rating:0.190164 Genres:Film-Noir|Drama|Crime|
+Movie:Star Kid (1997) Rating:0.190164 Genres:Adventure|Fantasy|Sci-Fi|Children's|
+Movie:20,000 Leagues Under the Sea (1954) Rating:0.190164 Genres:Adventure|Fantasy|Sci-Fi|Children's|
+Movie:He Walked by Night (1948) Rating:0.186885 Genres:Film-Noir|Thriller|Crime|
+Movie:Mulholland Falls (1996) Rating:0.186885 Genres:Film-Noir|Thriller|Crime|
+Movie:M (1931) Rating:0.186885 Genres:Film-Noir|Thriller|Crime|
+Movie:Touch of Evil (1958) Rating:0.186885 Genres:Film-Noir|Thriller|Crime|
+Movie:Pink Floyd - The Wall (1982) Rating:0.186885 Genres:War|Drama|Musical|
+Movie:This Is Spinal Tap (1984) Rating:0.186885 Genres:Drama|Comedy|Musical|
+Movie:Pollyanna (1960) Rating:0.183607 Genres:Drama|Comedy|Children's|
+Movie:Jungle Book, The (1994) Rating:0.183607 Genres:Adventure|Romance|Children's|
+Movie:Forrest Gump (1994) Rating:0.183607 Genres:War|Romance|Comedy|
+Movie:Babe (1995) Rating:0.183607 Genres:Drama|Comedy|Children's|
+Movie:Barbarella (1968) Rating:0.183607 Genres:Adventure|Sci-Fi|
+Movie:City of Lost Children, The (1995) Rating:0.183607 Genres:Adventure|Sci-Fi|
+Movie:Normal Life (1996) Rating:0.180328 Genres:Drama|Crime|
+Movie:New Jersey Drive (1995) Rating:0.180328 Genres:Drama|Crime|
+Movie:Killer: A Journal of Murder (1995) Rating:0.180328 Genres:Drama|Crime|
+Movie:Angel on My Shoulder (1946) Rating:0.180328 Genres:Drama|Crime|
+Movie:Jason's Lyric (1994) Rating:0.180328 Genres:Drama|Crime|
+Movie:Night Falls on Manhattan (1997) Rating:0.180328 Genres:Drama|Crime|
+Movie:Once Were Warriors (1994) Rating:0.180328 Genres:Drama|Crime|
+Movie:Letter From Death Row, A (1998) Rating:0.180328 Genres:Drama|Crime|
+Movie:Cyclo (1995) Rating:0.180328 Genres:Drama|Crime|
+Movie:They Made Me a Criminal (1939) Rating:0.180328 Genres:Drama|Crime|
+Movie:Newton Boys, The (1998) Rating:0.180328 Genres:Drama|Crime|
+Movie:Twilight (1998) Rating:0.180328 Genres:Drama|Crime|
+Movie:Sleepers (1996) Rating:0.180328 Genres:Drama|Crime|
+Movie:Bonnie and Clyde (1967) Rating:0.180328 Genres:Drama|Crime|
+Movie:Jackie Brown (1997) Rating:0.180328 Genres:Drama|Crime|
+Movie:Donnie Brasco (1997) Rating:0.180328 Genres:Drama|Crime|
+Movie:GoodFellas (1990) Rating:0.180328 Genres:Drama|Crime|
+Movie:Carlito's Way (1993) Rating:0.180328 Genres:Drama|Crime|
+Movie:Pulp Fiction (1994) Rating:0.180328 Genres:Drama|Crime|
+Movie:Hercules (1997) Rating:0.180328 Genres:Adventure|Musical|Comedy|Children's|Animation|
+Movie:Nothing Personal (1995) Rating:0.177049 Genres:War|Drama|
+Movie:Á köldum klaka (Cold Fever) (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Slingshot, The (1993) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Wife, The (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Nobody Loves Me (Keiner liebt mich) (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Reluctant Debutante, The (1958) Rating:0.177049 Genres:Drama|Comedy|
+Movie:City of Industry (1997) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Salut cousin! (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Vie est belle, La (Life is Rosey) (1987) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Yankee Zulu (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Wings of Courage (1995) Rating:0.177049 Genres:Adventure|Romance|
+Movie:Bhaji on the Beach (1993) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Last Summer in the Hamptons (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Sleepover (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Love Is All There Is (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Beat the Devil (1954) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Golden Earrings (1947) Rating:0.177049 Genres:Adventure|Romance|
+Movie:Grace of My Heart (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:I'll Do Anything (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Walking Dead, The (1995) Rating:0.177049 Genres:War|Drama|
+Movie:Caro Diario (Dear Diary) (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Stefano Quantestorie (1993) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Midnight Dancers (Sibak) (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Pompatus of Love, The (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Waiting to Exhale (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Babyfever (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Indian Summer (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Kicked in the Head (1997) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Talking About Sex (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Van, The (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Twisted (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Purple Noon (1960) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Family Thing, A (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Inkwell, The (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Welcome To Sarajevo (1997) Rating:0.177049 Genres:War|Drama|
+Movie:Spanking the Monkey (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Big Bully (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Hard Eight (1996) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Trust (1990) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Albino Alligator (1996) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Reality Bites (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Evening Star, The (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Paper, The (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Lay of the Land, The (1997) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Private Parts (1997) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Month by the Lake, A (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Unstrung Heroes (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Big Blue, The (Grand bleu, Le) (1988) Rating:0.177049 Genres:Adventure|Romance|
+Movie:With Honors (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Paradise Road (1997) Rating:0.177049 Genres:War|Drama|
+Movie:Ma vie en rose (My Life in Pink) (1997) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Bent (1997) Rating:0.177049 Genres:War|Drama|
+Movie:Excess Baggage (1997) Rating:0.177049 Genres:Adventure|Romance|
+Movie:Night on Earth (1991) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Swimming with Sharks (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Roommates (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Red Corner (1997) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Michael Collins (1996) Rating:0.177049 Genres:War|Drama|
+Movie:Sirens (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Boys on the Side (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:To Die For (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Tin Men (1987) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Kicking and Screaming (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Seven Years in Tibet (1997) Rating:0.177049 Genres:War|Drama|
+Movie:Rosencrantz and Guildenstern Are Dead (1990) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Ran (1985) Rating:0.177049 Genres:War|Drama|
+Movie:Paths of Glory (1957) Rating:0.177049 Genres:War|Drama|
+Movie:Big Squeeze, The (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Romeo Is Bleeding (1993) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Killing Fields, The (1984) Rating:0.177049 Genres:War|Drama|
+Movie:Cool Hand Luke (1967) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Down by Law (1986) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Deer Hunter, The (1978) Rating:0.177049 Genres:War|Drama|
+Movie:Apartment, The (1960) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Courage Under Fire (1996) Rating:0.177049 Genres:War|Drama|
+Movie:Jack (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Adventures of Priscilla, Queen of the Desert, The (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Incognito (1997) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Wag the Dog (1997) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Deconstructing Harry (1997) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Playing God (1997) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Schindler's List (1993) Rating:0.177049 Genres:War|Drama|
+Movie:As Good As It Gets (1997) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Citizen Ruth (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Patton (1970) Rating:0.177049 Genres:War|Drama|
+Movie:Bridge on the River Kwai, The (1957) Rating:0.177049 Genres:War|Drama|
+Movie:Henry V (1989) Rating:0.177049 Genres:War|Drama|
+Movie:Apocalypse Now (1979) Rating:0.177049 Genres:War|Drama|
+Movie:Platoon (1986) Rating:0.177049 Genres:War|Drama|
+Movie:Reservoir Dogs (1992) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Swingers (1996) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Welcome to the Dollhouse (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:What's Eating Gilbert Grape (1993) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Ed Wood (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Eat Drink Man Woman (1994) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Doom Generation, The (1995) Rating:0.177049 Genres:Drama|Comedy|
+Movie:Usual Suspects, The (1995) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Seven (Se7en) (1995) Rating:0.177049 Genres:Thriller|Crime|
+Movie:Richard III (1995) Rating:0.177049 Genres:War|Drama|
+Movie:Close Shave, A (1995) Rating:0.177049 Genres:Thriller|Comedy|Animation|
+Movie:Tainted (1998) Rating:0.173770 Genres:Thriller|Comedy|
+Movie:Head Above Water (1996) Rating:0.173770 Genres:Thriller|Comedy|
+Movie:Another Stakeout (1993) Rating:0.173770 Genres:Thriller|Comedy|
+Movie:North by Northwest (1959) Rating:0.173770 Genres:Thriller|Comedy|
+Movie:Space Jam (1996) Rating:0.170492 Genres:Adventure|Fantasy|Comedy|Children's|Animation|
+Movie:Herbie Rides Again (1974) Rating:0.167213 Genres:Adventure|Comedy|Children's|
+Movie:Jingle All the Way (1996) Rating:0.167213 Genres:Adventure|Comedy|Children's|
+Movie:Willy Wonka and the Chocolate Factory (1971) Rating:0.167213 Genres:Adventure|Comedy|Children's|
+Movie:For Whom the Bell Tolls (1943) Rating:0.160656 Genres:Adventure|War|
+Movie:Great Escape, The (1963) Rating:0.160656 Genres:Adventure|War|
+Movie:Lawrence of Arabia (1962) Rating:0.160656 Genres:Adventure|War|
+Movie:Around the World in 80 Days (1956) Rating:0.160656 Genres:Adventure|Comedy|
+Movie:I Know What You Did Last Summer (1997) Rating:0.157377 Genres:Thriller|Mystery|Horror|
+Movie:Radioland Murders (1994) Rating:0.147541 Genres:Romance|Comedy|Mystery|
+Movie:Palmetto (1998) Rating:0.147541 Genres:Film-Noir|Thriller|Mystery|
+Movie:Chinatown (1974) Rating:0.147541 Genres:Film-Noir|Thriller|Mystery|
+Movie:Before and After (1996) Rating:0.140984 Genres:Drama|Mystery|
+Movie:Six Degrees of Separation (1993) Rating:0.140984 Genres:Drama|Mystery|
+Movie:Craft, The (1996) Rating:0.140984 Genres:Drama|Horror|
+Movie:Beyond Bedlam (1993) Rating:0.140984 Genres:Drama|Horror|
+Movie:Hour of the Pig, The (1993) Rating:0.140984 Genres:Drama|Mystery|
+Movie:Wolf (1994) Rating:0.140984 Genres:Drama|Horror|
+Movie:Mary Shelley's Frankenstein (1994) Rating:0.140984 Genres:Drama|Horror|
+Movie:Interview with the Vampire (1994) Rating:0.140984 Genres:Drama|Horror|
+Movie:Amadeus (1984) Rating:0.140984 Genres:Drama|Mystery|
+Movie:Lone Star (1996) Rating:0.140984 Genres:Drama|Mystery|
+Movie:Nightwatch (1997) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Underneath, The (1995) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Nightwatch (1997) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Damsel in Distress, A (1937) Rating:0.137705 Genres:Romance|Comedy|Musical|
+Movie:Shall We Dance? (1937) Rating:0.137705 Genres:Romance|Comedy|Musical|
+Movie:Goofy Movie, A (1995) Rating:0.137705 Genres:Romance|Comedy|Children's|Animation|
+Movie:Top Hat (1935) Rating:0.137705 Genres:Romance|Comedy|Musical|
+Movie:Just Cause (1995) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Grease 2 (1982) Rating:0.137705 Genres:Romance|Comedy|Musical|
+Movie:Gaslight (1944) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Geronimo: An American Legend (1993) Rating:0.137705 Genres:Western|Drama|
+Movie:Heaven's Prisoners (1996) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Scream 2 (1997) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Believers, The (1987) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Loch Ness (1995) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Gay Divorcee, The (1934) Rating:0.137705 Genres:Romance|Comedy|Musical|
+Movie:Halloween: The Curse of Michael Myers (1995) Rating:0.137705 Genres:Thriller|Horror|
+Movie:In the Mouth of Madness (1995) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Relative Fear (1994) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Rear Window (1954) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:True Crime (1995) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Village of the Damned (1995) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Third Man, The (1949) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Dial M for Murder (1954) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Vertigo (1958) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Grease (1978) Rating:0.137705 Genres:Romance|Comedy|Musical|
+Movie:Thinner (1996) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Game, The (1997) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Murder at 1600 (1997) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Everyone Says I Love You (1996) Rating:0.137705 Genres:Romance|Comedy|Musical|
+Movie:Absolute Power (1997) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Scream (1996) Rating:0.137705 Genres:Thriller|Horror|
+Movie:Basic Instinct (1992) Rating:0.137705 Genres:Thriller|Mystery|
+Movie:Visitors, The (Visiteurs, Les) (1993) Rating:0.134426 Genres:Sci-Fi|Comedy|
+Movie:Junior (1994) Rating:0.134426 Genres:Sci-Fi|Comedy|
+Movie:Coneheads (1993) Rating:0.134426 Genres:Sci-Fi|Comedy|
+Movie:Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963) Rating:0.134426 Genres:War|Sci-Fi|
+Movie:Serial Mom (1994) Rating:0.134426 Genres:Crime|Comedy|Horror|
+Movie:Back to the Future (1985) Rating:0.134426 Genres:Sci-Fi|Comedy|
+Movie:Delicatessen (1991) Rating:0.134426 Genres:Sci-Fi|Comedy|
+Movie:Sleeper (1973) Rating:0.134426 Genres:Sci-Fi|Comedy|
+Movie:Mystery Science Theater 3000: The Movie (1996) Rating:0.134426 Genres:Sci-Fi|Comedy|
+Movie:Selena (1997) Rating:0.131148 Genres:Drama|Musical|
+Movie:Backbeat (1993) Rating:0.131148 Genres:Drama|Musical|
+Movie:Doors, The (1991) Rating:0.131148 Genres:Drama|Musical|
+Movie:Umbrellas of Cherbourg, The (Parapluies de Cherbourg, Les) (1964) Rating:0.131148 Genres:Drama|Musical|
+Movie:Farinelli: il castrato (1994) Rating:0.131148 Genres:Drama|Musical|
+Movie:Misérables, Les (1995) Rating:0.131148 Genres:Drama|Musical|
+Movie:Evita (1996) Rating:0.131148 Genres:Drama|Musical|
+Movie:Little City (1998) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Favor, The (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Vermont Is For Lovers (1992) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Object of My Affection, The (1998) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Mr. Wonderful (1993) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Naked in New York (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Even Cowgirls Get the Blues (1993) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Nina Takes a Lover (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Roseanna's Grave (For Roseanna) (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Hotel de Love (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:For the Moment (1994) Rating:0.127869 Genres:War|Romance|
+Movie:Love in the Afternoon (1957) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Pie in the Sky (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Trial and Error (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:That Old Feeling (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Rendezvous in Paris (Rendez-vous de Paris, Les) (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:In Love and War (1996) Rating:0.127869 Genres:War|Romance|
+Movie:Farewell to Arms, A (1932) Rating:0.127869 Genres:War|Romance|
+Movie:Two Much (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Pyromaniac's Love Story, A (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:She's the One (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Forget Paris (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Two if by Sea (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Grumpier Old Men (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Beautician and the Beast, The (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Booty Call (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Smile Like Yours, A (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Picture Perfect (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Fools Rush In (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Michael (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Ninotchka (1939) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Mrs. Winterbourne (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Speechless (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Perez Family, The (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Only You (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Milk Money (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:French Kiss (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Boomerang (1992) Rating:0.127869 Genres:Romance|Comedy|
+Movie:If Lucy Fell (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:MatchMaker, The (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Benny & Joon (1993) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Pretty Woman (1990) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Threesome (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Dave (1993) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Strictly Ballroom (1992) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Barcelona (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Quiet Man, The (1952) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Englishman Who Went Up a Hill, But Came Down a Mountain, The (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Vampire in Brooklyn (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Addicted to Love (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Annie Hall (1977) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Roman Holiday (1953) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Sabrina (1954) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Philadelphia Story, The (1940) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Muriel's Wedding (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Wedding Singer, The (1998) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Tin Cup (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Sabrina (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:When the Cats Away (Chacun cherche son chat) (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:My Best Friend's Wedding (1997) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Mirror Has Two Faces, The (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:When Harry Met Sally... (1989) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Groundhog Day (1993) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Truth About Cats & Dogs, The (1996) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Sleepless in Seattle (1993) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Much Ado About Nothing (1993) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Hudsucker Proxy, The (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Four Weddings and a Funeral (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:While You Were Sleeping (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:I.Q. (1994) Rating:0.127869 Genres:Romance|Comedy|
+Movie:French Twist (Gazon maudit) (1995) Rating:0.127869 Genres:Romance|Comedy|
+Movie:Little Princess, The (1939) Rating:0.127869 Genres:Drama|Children's|
+Movie:Suture (1993) Rating:0.127869 Genres:Film-Noir|Thriller|
+Movie:Kim (1950) Rating:0.127869 Genres:Drama|Children's|
+Movie:Little Princess, A (1995) Rating:0.127869 Genres:Drama|Children's|
+Movie:Shiloh (1997) Rating:0.127869 Genres:Drama|Children's|
+Movie:Murder, My Sweet (1944) Rating:0.127869 Genres:Film-Noir|Thriller|
+Movie:Bogus (1996) Rating:0.127869 Genres:Fantasy|Drama|Children's|
+Movie:Fluke (1995) Rating:0.127869 Genres:Drama|Children's|
+Movie:Cape Fear (1962) Rating:0.127869 Genres:Film-Noir|Thriller|
+Movie:Manchurian Candidate, The (1962) Rating:0.127869 Genres:Film-Noir|Thriller|
+Movie:So Dear to My Heart (1949) Rating:0.127869 Genres:Drama|Children's|
+Movie:Secret Garden, The (1993) Rating:0.127869 Genres:Drama|Children's|
+Movie:Parent Trap, The (1961) Rating:0.127869 Genres:Drama|Children's|
+Movie:Old Yeller (1957) Rating:0.127869 Genres:Drama|Children's|
+Movie:FairyTale: A True Story (1997) Rating:0.127869 Genres:Fantasy|Drama|Children's|
+Movie:Pete's Dragon (1977) Rating:0.124590 Genres:Adventure|Musical|Children's|Animation|
+Movie:Scream of Stone (Schrei aus Stein) (1991) Rating:0.121311 Genres:Drama|
+Movie:Mat' i syn (1997) Rating:0.121311 Genres:Drama|
+Movie:Sweet Nothing (1995) Rating:0.121311 Genres:Drama|
+Movie:War at Home, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Sunchaser, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Mamma Roma (1962) Rating:0.121311 Genres:Drama|
+Movie:Kika (1993) Rating:0.121311 Genres:Drama|
+Movie:Further Gesture, A (1996) Rating:0.121311 Genres:Drama|
+Movie:Next Step, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Ripe (1996) Rating:0.121311 Genres:Drama|
+Movie:Brother's Kiss, A (1997) Rating:0.121311 Genres:Drama|
+Movie:New Age, The (1994) Rating:0.121311 Genres:Drama|
+Movie:Small Faces (1995) Rating:0.121311 Genres:Drama|
+Movie:Substance of Fire, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Entertaining Angels: The Dorothy Day Story (1996) Rating:0.121311 Genres:Drama|
+Movie:Butcher Boy, The (1998) Rating:0.121311 Genres:Drama|
+Movie:Niagara, Niagara (1997) Rating:0.121311 Genres:Drama|
+Movie:Butcher Boy, The (1998) Rating:0.121311 Genres:Drama|
+Movie:Angel Baby (1995) Rating:0.121311 Genres:Drama|
+Movie:Some Mother's Son (1996) Rating:0.121311 Genres:Drama|
+Movie:Eighth Day, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Bitter Sugar (Azucar Amargo) (1996) Rating:0.121311 Genres:Drama|
+Movie:Girls Town (1996) Rating:0.121311 Genres:Drama|
+Movie:Brothers in Trouble (1995) Rating:0.121311 Genres:Drama|
+Movie:Two Friends (1986)  Rating:0.121311 Genres:Drama|
+Movie:Etz Hadomim Tafus (Under the Domin Tree) (1994) Rating:0.121311 Genres:Drama|
+Movie:Silence of the Palace, The (Saimt el Qusur) (1994) Rating:0.121311 Genres:Drama|
+Movie:Lamerica (1994) Rating:0.121311 Genres:Drama|
+Movie:Cérémonie, La (1995) Rating:0.121311 Genres:Drama|
+Movie:All Things Fair (1996) Rating:0.121311 Genres:Drama|
+Movie:Desert Winds (1995) Rating:0.121311 Genres:Drama|
+Movie:Hurricane Streets (1998) Rating:0.121311 Genres:Drama|
+Movie:Angela (1995) Rating:0.121311 Genres:Drama|
+Movie:Price Above Rubies, A (1998) Rating:0.121311 Genres:Drama|
+Movie:Someone Else's America (1995) Rating:0.121311 Genres:Drama|
+Movie:Magic Hour, The (1998) Rating:0.121311 Genres:Drama|
+Movie:Duoluo tianshi (1995) Rating:0.121311 Genres:Drama|
+Movie:To Have, or Not (1995) Rating:0.121311 Genres:Drama|
+Movie:Symphonie pastorale, La (1946) Rating:0.121311 Genres:Drama|
+Movie:Invitation, The (Zaproszenie) (1986) Rating:0.121311 Genres:Drama|
+Movie:Collectionneuse, La (1967) Rating:0.121311 Genres:Drama|
+Movie:Death in the Garden (Mort en ce jardin, La) (1956) Rating:0.121311 Genres:Drama|
+Movie:I, Worst of All (Yo, la peor de todas) (1990) Rating:0.121311 Genres:Drama|
+Movie:Wend Kuuni (God's Gift) (1982) Rating:0.121311 Genres:Drama|
+Movie:Touki Bouki (Journey of the Hyena) (1973) Rating:0.121311 Genres:Drama|
+Movie:Man from Down Under, The (1943) Rating:0.121311 Genres:Drama|
+Movie:Daens (1992) Rating:0.121311 Genres:Drama|
+Movie:To Cross the Rubicon (1991) Rating:0.121311 Genres:Drama|
+Movie:Tigrero: A Film That Was Never Made (1994) Rating:0.121311 Genres:Drama|Documentary|
+Movie:Aparajito (1956) Rating:0.121311 Genres:Drama|
+Movie:Safe Passage (1994) Rating:0.121311 Genres:Drama|
+Movie:Glass Shield, The (1994) Rating:0.121311 Genres:Drama|
+Movie:Shadows (Cienie) (1988) Rating:0.121311 Genres:Drama|
+Movie:Johns (1996) Rating:0.121311 Genres:Drama|
+Movie:Scarlet Letter, The (1926) Rating:0.121311 Genres:Drama|
+Movie:Beans of Egypt, Maine, The (1994) Rating:0.121311 Genres:Drama|
+Movie:Being Human (1993) Rating:0.121311 Genres:Drama|
+Movie:All Over Me (1997) Rating:0.121311 Genres:Drama|
+Movie:Aiqing wansui (1994) Rating:0.121311 Genres:Drama|
+Movie:Enfer, L' (1994) Rating:0.121311 Genres:Drama|
+Movie:I Don't Want to Talk About It (De eso no se habla) (1993) Rating:0.121311 Genres:Drama|
+Movie:Foreign Student (1994) Rating:0.121311 Genres:Drama|
+Movie:Jefferson in Paris (1995) Rating:0.121311 Genres:Drama|
+Movie:Nowhere (1997) Rating:0.121311 Genres:Drama|
+Movie:Kaspar Hauser (1993) Rating:0.121311 Genres:Drama|
+Movie:Losing Isaiah (1995) Rating:0.121311 Genres:Drama|
+Movie:Race the Sun (1996) Rating:0.121311 Genres:Drama|
+Movie:Wedding Gift, The (1994) Rating:0.121311 Genres:Drama|
+Movie:Dream With the Fishes (1997) Rating:0.121311 Genres:Drama|
+Movie:World of Apu, The (Apur Sansar) (1959) Rating:0.121311 Genres:Drama|
+Movie:Nelly & Monsieur Arnaud (1995) Rating:0.121311 Genres:Drama|
+Movie:Flirt (1995) Rating:0.121311 Genres:Drama|
+Movie:Germinal (1993) Rating:0.121311 Genres:Drama|
+Movie:Girl in the Cadillac (1995) Rating:0.121311 Genres:Drama|
+Movie:S.F.W. (1994) Rating:0.121311 Genres:Drama|
+Movie:Cure, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Saint of Fort Washington, The (1993) Rating:0.121311 Genres:Drama|
+Movie:Margaret's Museum (1995) Rating:0.121311 Genres:Drama|
+Movie:Stars Fell on Henrietta, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Pather Panchali (1955) Rating:0.121311 Genres:Drama|
+Movie:My Favorite Season (1993) Rating:0.121311 Genres:Drama|
+Movie:Century (1993) Rating:0.121311 Genres:Drama|
+Movie:Ladybird Ladybird (1994) Rating:0.121311 Genres:Drama|
+Movie:8 Seconds (1994) Rating:0.121311 Genres:Drama|
+Movie:Scarlet Letter, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Above the Rim (1994) Rating:0.121311 Genres:Drama|
+Movie:Panther (1995) Rating:0.121311 Genres:Drama|
+Movie:Mighty, The (1998) Rating:0.121311 Genres:Drama|
+Movie:Ill Gotten Gains (1997) Rating:0.121311 Genres:Drama|
+Movie:Drunks (1995) Rating:0.121311 Genres:Drama|
+Movie:My Crazy Life (Mi vida loca) (1993) Rating:0.121311 Genres:Drama|
+Movie:Joy Luck Club, The (1993) Rating:0.121311 Genres:Drama|
+Movie:Turning, The (1992) Rating:0.121311 Genres:Drama|
+Movie:Harlem (1993) Rating:0.121311 Genres:Drama|
+Movie:Boy's Life 2 (1997) Rating:0.121311 Genres:Drama|
+Movie:Ciao, Professore! (1993) Rating:0.121311 Genres:Drama|
+Movie:M. Butterfly (1993) Rating:0.121311 Genres:Drama|
+Movie:Anna (1996) Rating:0.121311 Genres:Drama|
+Movie:Of Human Bondage (1934) Rating:0.121311 Genres:Drama|
+Movie:Stonewall (1995) Rating:0.121311 Genres:Drama|
+Movie:Hurricane Streets (1998) Rating:0.121311 Genres:Drama|
+Movie:Locusts, The (1997) Rating:0.121311 Genres:Drama|
+Movie:For Ever Mozart (1996) Rating:0.121311 Genres:Drama|
+Movie:Mondo (1996) Rating:0.121311 Genres:Drama|
+Movie:Gabbeh (1996) Rating:0.121311 Genres:Drama|
+Movie:Squeeze (1996) Rating:0.121311 Genres:Drama|
+Movie:Bonheur, Le (1965) Rating:0.121311 Genres:Drama|
+Movie:Losing Chase (1996) Rating:0.121311 Genres:Drama|
+Movie:Hollow Reed (1996) Rating:0.121311 Genres:Drama|
+Movie:Cement Garden, The (1993) Rating:0.121311 Genres:Drama|
+Movie:Forbidden Christ, The (Cristo proibito, Il) (1950) Rating:0.121311 Genres:Drama|
+Movie:Mina Tannenbaum (1994) Rating:0.121311 Genres:Drama|
+Movie:JLG/JLG - autoportrait de décembre (1994) Rating:0.121311 Genres:Drama|Documentary|
+Movie:Boys in Venice (1996) Rating:0.121311 Genres:Drama|
+Movie:Infinity (1996) Rating:0.121311 Genres:Drama|
+Movie:Venice/Venice (1992) Rating:0.121311 Genres:Drama|
+Movie:Shadow of Angels (Schatten der Engel) (1976) Rating:0.121311 Genres:Drama|
+Movie:Crows and Sparrows (1949) Rating:0.121311 Genres:Drama|
+Movie:Every Other Weekend (1990) Rating:0.121311 Genres:Drama|
+Movie:Ballad of Narayama, The (Narayama Bushiko) (1958) Rating:0.121311 Genres:Drama|
+Movie:Dingo (1992) Rating:0.121311 Genres:Drama|
+Movie:Day the Sun Turned Cold, The (Tianguo niezi) (1994) Rating:0.121311 Genres:Drama|
+Movie:Story of Xinghua, The (1993) Rating:0.121311 Genres:Drama|
+Movie:Lotto Land (1995) Rating:0.121311 Genres:Drama|
+Movie:Convent, The (Convento, O) (1995) Rating:0.121311 Genres:Drama|
+Movie:Hedd Wyn (1992) Rating:0.121311 Genres:Drama|
+Movie:Two Deaths (1995) Rating:0.121311 Genres:Drama|
+Movie:American Buffalo (1996) Rating:0.121311 Genres:Drama|
+Movie:Somebody to Love (1994) Rating:0.121311 Genres:Drama|
+Movie:My Life and Times With Antonin Artaud (En compagnie d'Antonin Artaud) (1993) Rating:0.121311 Genres:Drama|
+Movie:An Unforgettable Summer (1994) Rating:0.121311 Genres:Drama|
+Movie:Low Life, The (1994) Rating:0.121311 Genres:Drama|
+Movie:Of Love and Shadows (1994) Rating:0.121311 Genres:Drama|
+Movie:Captives (1994) Rating:0.121311 Genres:Drama|
+Movie:Boys (1996) Rating:0.121311 Genres:Drama|
+Movie:August (1996) Rating:0.121311 Genres:Drama|
+Movie:Wooden Man's Bride, The (Wu Kui) (1994) Rating:0.121311 Genres:Drama|
+Movie:Homage (1995) Rating:0.121311 Genres:Drama|
+Movie:Neon Bible, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Journey of August King, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Horse Whisperer, The (1998) Rating:0.121311 Genres:Drama|
+Movie:Walk in the Sun, A (1945) Rating:0.121311 Genres:Drama|
+Movie:Very Natural Thing, A (1974) Rating:0.121311 Genres:Drama|
+Movie:Delta of Venus (1994) Rating:0.121311 Genres:Drama|
+Movie:Princess Caraboo (1994) Rating:0.121311 Genres:Drama|
+Movie:Grass Harp, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Manny & Lo (1996) Rating:0.121311 Genres:Drama|
+Movie:Sunset Park (1996) Rating:0.121311 Genres:Drama|
+Movie:Bitter Moon (1992) Rating:0.121311 Genres:Drama|
+Movie:Clockers (1995) Rating:0.121311 Genres:Drama|
+Movie:Bread and Chocolate (Pane e cioccolata) (1973) Rating:0.121311 Genres:Drama|
+Movie:Star Maps (1997) Rating:0.121311 Genres:Drama|
+Movie:Nothing to Lose (1994) Rating:0.121311 Genres:Drama|
+Movie:Foxfire (1996) Rating:0.121311 Genres:Drama|
+Movie:Run of the Country, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Total Eclipse (1995) Rating:0.121311 Genres:Drama|
+Movie:Designated Mourner, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Designated Mourner, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Broken English (1996) Rating:0.121311 Genres:Drama|
+Movie:Contempt (Mépris, Le) (1963) Rating:0.121311 Genres:Drama|
+Movie:Full Speed (1996) Rating:0.121311 Genres:Drama|
+Movie:Other Voices, Other Rooms (1997) Rating:0.121311 Genres:Drama|
+Movie:Nénette et Boni (1996) Rating:0.121311 Genres:Drama|
+Movie:Awfully Big Adventure, An (1995) Rating:0.121311 Genres:Drama|
+Movie:Scout, The (1994) Rating:0.121311 Genres:Drama|
+Movie:King of the Hill (1993) Rating:0.121311 Genres:Drama|
+Movie:When a Man Loves a Woman (1994) Rating:0.121311 Genres:Drama|
+Movie:Higher Learning (1995) Rating:0.121311 Genres:Drama|
+Movie:In the Realm of the Senses (Ai no corrida) (1976) Rating:0.121311 Genres:Drama|
+Movie:Secret Agent, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Savage Nights (Nuits fauves, Les) (1992) Rating:0.121311 Genres:Drama|
+Movie:Strawberry and Chocolate (Fresa y chocolate) (1993) Rating:0.121311 Genres:Drama|
+Movie:Before the Rain (Pred dozhdot) (1994) Rating:0.121311 Genres:Drama|
+Movie:Boys of St. Vincent, The (1993) Rating:0.121311 Genres:Drama|
+Movie:Prefontaine (1997) Rating:0.121311 Genres:Drama|
+Movie:Wild Reeds (1994) Rating:0.121311 Genres:Drama|
+Movie:Fresh (1994) Rating:0.121311 Genres:Drama|
+Movie:Little Buddha (1993) Rating:0.121311 Genres:Drama|
+Movie:Portrait of a Lady, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Fille seule, La (A Single Girl) (1995) Rating:0.121311 Genres:Drama|
+Movie:Last Dance (1996) Rating:0.121311 Genres:Drama|
+Movie:Walkabout (1971) Rating:0.121311 Genres:Drama|
+Movie:Tom & Viv (1994) Rating:0.121311 Genres:Drama|
+Movie:My Family (1995) Rating:0.121311 Genres:Drama|
+Movie:Calendar Girl (1993) Rating:0.121311 Genres:Drama|
+Movie:Blue Chips (1994) Rating:0.121311 Genres:Drama|
+Movie:Quiet Room, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Ghosts of Mississippi (1996) Rating:0.121311 Genres:Drama|
+Movie:Get on the Bus (1996) Rating:0.121311 Genres:Drama|
+Movie:Truman Show, The (1998) Rating:0.121311 Genres:Drama|
+Movie:Last Time I Saw Paris, The (1954) Rating:0.121311 Genres:Drama|
+Movie:Surviving Picasso (1996) Rating:0.121311 Genres:Drama|
+Movie:Mrs. Parker and the Vicious Circle (1994) Rating:0.121311 Genres:Drama|
+Movie:Cobb (1994) Rating:0.121311 Genres:Drama|
+Movie:Double Happiness (1994) Rating:0.121311 Genres:Drama|
+Movie:Feast of July (1995) Rating:0.121311 Genres:Drama|
+Movie:Beyond Rangoon (1995) Rating:0.121311 Genres:Drama|
+Movie:Red Firecracker, Green Firecracker (1994) Rating:0.121311 Genres:Drama|
+Movie:Hate (Haine, La) (1995) Rating:0.121311 Genres:Drama|
+Movie:It's My Party (1995) Rating:0.121311 Genres:Drama|
+Movie:Female Perversions (1996) Rating:0.121311 Genres:Drama|
+Movie:Man of No Importance, A (1994) Rating:0.121311 Genres:Drama|
+Movie:Star Maker, The (Uomo delle stelle, L') (1995) Rating:0.121311 Genres:Drama|
+Movie:Four Days in September (1997) Rating:0.121311 Genres:Drama|
+Movie:Simple Twist of Fate, A (1994) Rating:0.121311 Genres:Drama|
+Movie:Now and Then (1995) Rating:0.121311 Genres:Drama|
+Movie:Fearless (1993) Rating:0.121311 Genres:Drama|
+Movie:Hamlet (1996) Rating:0.121311 Genres:Drama|
+Movie:8 1/2 (1963) Rating:0.121311 Genres:Drama|
+Movie:Tie Me Up! Tie Me Down! (1990) Rating:0.121311 Genres:Drama|
+Movie:Trees Lounge (1996) Rating:0.121311 Genres:Drama|
+Movie:Basquiat (1996) Rating:0.121311 Genres:Drama|
+Movie:Stealing Beauty (1996) Rating:0.121311 Genres:Drama|
+Movie:I Shot Andy Warhol (1996) Rating:0.121311 Genres:Drama|
+Movie:Double vie de Véronique, La (Double Life of Veronique, The) (1991) Rating:0.121311 Genres:Drama|
+Movie:Last Time I Committed Suicide, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Blood & Wine (1997) Rating:0.121311 Genres:Drama|
+Movie:Dangerous Ground (1997) Rating:0.121311 Genres:Drama|
+Movie:Mother Night (1996) Rating:0.121311 Genres:Drama|
+Movie:Passion Fish (1992) Rating:0.121311 Genres:Drama|
+Movie:Little Lord Fauntleroy (1936) Rating:0.121311 Genres:Drama|
+Movie:Ruby in Paradise (1993) Rating:0.121311 Genres:Drama|
+Movie:Orlando (1993) Rating:0.121311 Genres:Drama|
+Movie:Naked (1993) Rating:0.121311 Genres:Drama|
+Movie:To Live (Huozhe) (1994) Rating:0.121311 Genres:Drama|
+Movie:Nobody's Fool (1994) Rating:0.121311 Genres:Drama|
+Movie:Georgia (1995) Rating:0.121311 Genres:Drama|
+Movie:What's Love Got to Do with It (1993) Rating:0.121311 Genres:Drama|
+Movie:Thousand Acres, A (1997) Rating:0.121311 Genres:Drama|
+Movie:Preacher's Wife, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Funeral, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Flower of My Secret, The (Flor de mi secreto, La) (1995) Rating:0.121311 Genres:Drama|
+Movie:Raise the Red Lantern (1991) Rating:0.121311 Genres:Drama|
+Movie:Two Bits (1995) Rating:0.121311 Genres:Drama|
+Movie:Primary Colors (1998) Rating:0.121311 Genres:Drama|
+Movie:Nil By Mouth (1997) Rating:0.121311 Genres:Drama|
+Movie:Dangerous Beauty (1998) Rating:0.121311 Genres:Drama|
+Movie:Kundun (1997) Rating:0.121311 Genres:Drama|
+Movie:Winter Guest, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Postman, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Sweet Hereafter, The (1997) Rating:0.121311 Genres:Drama|
+Movie:One Night Stand (1997) Rating:0.121311 Genres:Drama|
+Movie:Eve's Bayou (1997) Rating:0.121311 Genres:Drama|
+Movie:Telling Lies in America (1997) Rating:0.121311 Genres:Drama|
+Movie:Washington Square (1997) Rating:0.121311 Genres:Drama|
+Movie:Soul Food (1997) Rating:0.121311 Genres:Drama|
+Movie:Career Girls (1997) Rating:0.121311 Genres:Drama|
+Movie:Hearts and Minds (1996) Rating:0.121311 Genres:Drama|
+Movie:Whole Wide World, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Ice Storm, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Garden of Finzi-Contini, The (Giardino dei Finzi-Contini, Il) (1970) Rating:0.121311 Genres:Drama|
+Movie:Two or Three Things I Know About Her (1966) Rating:0.121311 Genres:Drama|
+Movie:Looking for Richard (1996) Rating:0.121311 Genres:Drama|Documentary|
+Movie:Meet John Doe (1941) Rating:0.121311 Genres:Drama|
+Movie:Faces (1968) Rating:0.121311 Genres:Drama|
+Movie:Frisk (1995) Rating:0.121311 Genres:Drama|
+Movie:Poetic Justice (1993) Rating:0.121311 Genres:Drama|
+Movie:Boys Life (1995) Rating:0.121311 Genres:Drama|
+Movie:Little Odessa (1994) Rating:0.121311 Genres:Drama|
+Movie:Three Wishes (1995) Rating:0.121311 Genres:Drama|
+Movie:Kids (1995) Rating:0.121311 Genres:Drama|
+Movie:Beautiful Girls (1996) Rating:0.121311 Genres:Drama|
+Movie:Burnt By the Sun (1994) Rating:0.121311 Genres:Drama|
+Movie:Amistad (1997) Rating:0.121311 Genres:Drama|
+Movie:Philadelphia (1993) Rating:0.121311 Genres:Drama|
+Movie:Nell (1994) Rating:0.121311 Genres:Drama|
+Movie:Othello (1995) Rating:0.121311 Genres:Drama|
+Movie:Substance of Fire, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Sex, Lies, and Videotape (1989) Rating:0.121311 Genres:Drama|
+Movie:Enchanted April (1991) Rating:0.121311 Genres:Drama|
+Movie:Widows' Peak (1994) Rating:0.121311 Genres:Drama|
+Movie:Little Women (1994) Rating:0.121311 Genres:Drama|
+Movie:Browning Version, The (1994) Rating:0.121311 Genres:Drama|
+Movie:Basketball Diaries, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Casino (1995) Rating:0.121311 Genres:Drama|
+Movie:Crucible, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Paris, Texas (1984) Rating:0.121311 Genres:Drama|
+Movie:Fried Green Tomatoes (1991) Rating:0.121311 Genres:Drama|
+Movie:Pump Up the Volume (1990) Rating:0.121311 Genres:Drama|
+Movie:Seventh Seal, The (Sjunde inseglet, Det) (1957) Rating:0.121311 Genres:Drama|
+Movie:Cook the Thief His Wife & Her Lover, The (1989) Rating:0.121311 Genres:Drama|
+Movie:Tin Drum, The (Blechtrommel, Die) (1979) Rating:0.121311 Genres:Drama|
+Movie:Return of Martin Guerre, The (Retour de Martin Guerre, Le) (1982) Rating:0.121311 Genres:Drama|
+Movie:Christmas Carol, A (1938) Rating:0.121311 Genres:Drama|
+Movie:Sophie's Choice (1982) Rating:0.121311 Genres:Drama|
+Movie:Robin Hood: Prince of Thieves (1991) Rating:0.121311 Genres:Drama|
+Movie:Chamber, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Picnic (1955) Rating:0.121311 Genres:Drama|
+Movie:Blue Angel, The (Blaue Engel, Der) (1930) Rating:0.121311 Genres:Drama|
+Movie:Giant (1956) Rating:0.121311 Genres:Drama|
+Movie:Lost Horizon (1937) Rating:0.121311 Genres:Drama|
+Movie:All About Eve (1950) Rating:0.121311 Genres:Drama|
+Movie:White Man's Burden (1995) Rating:0.121311 Genres:Drama|
+Movie:My Own Private Idaho (1991) Rating:0.121311 Genres:Drama|
+Movie:Ponette (1996) Rating:0.121311 Genres:Drama|
+Movie:Traveller (1997) Rating:0.121311 Genres:Drama|
+Movie:My Life as a Dog (Mitt liv som hund) (1985) Rating:0.121311 Genres:Drama|
+Movie:Gandhi (1982) Rating:0.121311 Genres:Drama|
+Movie:Miller's Crossing (1990) Rating:0.121311 Genres:Drama|
+Movie:My Left Foot (1989) Rating:0.121311 Genres:Drama|
+Movie:People vs. Larry Flynt, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Streetcar Named Desire, A (1951) Rating:0.121311 Genres:Drama|
+Movie:Rebel Without a Cause (1955) Rating:0.121311 Genres:Drama|
+Movie:Candidate, The (1972) Rating:0.121311 Genres:Drama|
+Movie:Cat on a Hot Tin Roof (1958) Rating:0.121311 Genres:Drama|
+Movie:It's a Wonderful Life (1946) Rating:0.121311 Genres:Drama|
+Movie:East of Eden (1955) Rating:0.121311 Genres:Drama|
+Movie:Trainspotting (1996) Rating:0.121311 Genres:Drama|
+Movie:Short Cuts (1993) Rating:0.121311 Genres:Drama|
+Movie:Rudy (1993) Rating:0.121311 Genres:Drama|
+Movie:Bronx Tale, A (1993) Rating:0.121311 Genres:Drama|
+Movie:Vanya on 42nd Street (1994) Rating:0.121311 Genres:Drama|
+Movie:Smoke (1995) Rating:0.121311 Genres:Drama|
+Movie:Crossing Guard, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Cry, the Beloved Country (1995) Rating:0.121311 Genres:Drama|
+Movie:Nixon (1995) Rating:0.121311 Genres:Drama|
+Movie:Bastard Out of Carolina (1996) Rating:0.121311 Genres:Drama|
+Movie:To Kill a Mockingbird (1962) Rating:0.121311 Genres:Drama|
+Movie:Man Without a Face, The (1993) Rating:0.121311 Genres:Drama|
+Movie:Age of Innocence, The (1993) Rating:0.121311 Genres:Drama|
+Movie:Miracle on 34th Street (1994) Rating:0.121311 Genres:Drama|
+Movie:Showgirls (1995) Rating:0.121311 Genres:Drama|
+Movie:Dangerous Minds (1995) Rating:0.121311 Genres:Drama|
+Movie:Powder (1995) Rating:0.121311 Genres:Drama|
+Movie:One Flew Over the Cuckoo's Nest (1975) Rating:0.121311 Genres:Drama|
+Movie:Apostle, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Boogie Nights (1997) Rating:0.121311 Genres:Drama|
+Movie:187 (1997) Rating:0.121311 Genres:Drama|
+Movie:In the Name of the Father (1993) Rating:0.121311 Genres:Drama|
+Movie:Rainmaker, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Ice Storm, The (1997) Rating:0.121311 Genres:Drama|
+Movie:Ulee's Gold (1997) Rating:0.121311 Genres:Drama|
+Movie:Ulee's Gold (1997) Rating:0.121311 Genres:Drama|
+Movie:Promesse, La (1996) Rating:0.121311 Genres:Drama|
+Movie:Rosewood (1997) Rating:0.121311 Genres:Drama|
+Movie:Marvin's Room (1996) Rating:0.121311 Genres:Drama|
+Movie:Secrets & Lies (1996) Rating:0.121311 Genres:Drama|
+Movie:Time to Kill, A (1996) Rating:0.121311 Genres:Drama|
+Movie:Once Upon a Time... When We Were Colored (1995) Rating:0.121311 Genres:Drama|
+Movie:Restoration (1995) Rating:0.121311 Genres:Drama|
+Movie:Good Will Hunting (1997) Rating:0.121311 Genres:Drama|
+Movie:In the Company of Men (1997) Rating:0.121311 Genres:Drama|
+Movie:Ridicule (1996) Rating:0.121311 Genres:Drama|
+Movie:Breaking the Waves (1996) Rating:0.121311 Genres:Drama|
+Movie:Field of Dreams (1989) Rating:0.121311 Genres:Drama|
+Movie:Unbearable Lightness of Being, The (1988) Rating:0.121311 Genres:Drama|
+Movie:Dead Poets Society (1989) Rating:0.121311 Genres:Drama|
+Movie:Right Stuff, The (1983) Rating:0.121311 Genres:Drama|
+Movie:Raging Bull (1980) Rating:0.121311 Genres:Drama|
+Movie:12 Angry Men (1957) Rating:0.121311 Genres:Drama|
+Movie:Manon of the Spring (Manon des sources) (1986) Rating:0.121311 Genres:Drama|
+Movie:Jean de Florette (1986) Rating:0.121311 Genres:Drama|
+Movie:On Golden Pond (1981) Rating:0.121311 Genres:Drama|
+Movie:Glengarry Glen Ross (1992) Rating:0.121311 Genres:Drama|
+Movie:Jude (1996) Rating:0.121311 Genres:Drama|
+Movie:Unhook the Stars (1996) Rating:0.121311 Genres:Drama|
+Movie:Bedknobs and Broomsticks (1971) Rating:0.121311 Genres:Adventure|Musical|Children's|
+Movie:Big Night (1996) Rating:0.121311 Genres:Drama|
+Movie:Mr. Smith Goes to Washington (1939) Rating:0.121311 Genres:Drama|
+Movie:Citizen Kane (1941) Rating:0.121311 Genres:Drama|
+Movie:Spitfire Grill, The (1996) Rating:0.121311 Genres:Drama|
+Movie:Horseman on the Roof, The (Hussard sur le toit, Le) (1995) Rating:0.121311 Genres:Drama|
+Movie:Moll Flanders (1996) Rating:0.121311 Genres:Drama|
+Movie:Searching for Bobby Fischer (1993) Rating:0.121311 Genres:Drama|
+Movie:Remains of the Day, The (1993) Rating:0.121311 Genres:Drama|
+Movie:Shawshank Redemption, The (1994) Rating:0.121311 Genres:Drama|
+Movie:Three Colors: White (1994) Rating:0.121311 Genres:Drama|
+Movie:Three Colors: Blue (1993) Rating:0.121311 Genres:Drama|
+Movie:Three Colors: Red (1994) Rating:0.121311 Genres:Drama|
+Movie:Quiz Show (1994) Rating:0.121311 Genres:Drama|
+Movie:Priest (1994) Rating:0.121311 Genres:Drama|
+Movie:Madness of King George, The (1994) Rating:0.121311 Genres:Drama|
+Movie:Exotica (1994) Rating:0.121311 Genres:Drama|
+Movie:Nadja (1994) Rating:0.121311 Genres:Drama|
+Movie:Belle de jour (1967) Rating:0.121311 Genres:Drama|
+Movie:Antonia's Line (1995) Rating:0.121311 Genres:Drama|
+Movie:White Balloon, The (1995) Rating:0.121311 Genres:Drama|
+Movie:Mr. Holland's Opus (1995) Rating:0.121311 Genres:Drama|
+Movie:Dead Man Walking (1995) Rating:0.121311 Genres:Drama|
+Movie:Shanghai Triad (Yao a yao yao dao waipo qiao) (1995) Rating:0.121311 Genres:Drama|
+Movie:Hush (1998) Rating:0.118033 Genres:Thriller|
+Movie:Butterfly Kiss (1995) Rating:0.118033 Genres:Thriller|
+Movie:Office Killer (1997) Rating:0.118033 Genres:Thriller|
+Movie:Baton Rouge (1988) Rating:0.118033 Genres:Thriller|
+Movie:Dream Man (1995) Rating:0.118033 Genres:Thriller|
+Movie:Trial by Jury (1994) Rating:0.118033 Genres:Thriller|
+Movie:Hideaway (1995) Rating:0.118033 Genres:Thriller|
+Movie:Foreign Correspondent (1940) Rating:0.118033 Genres:Thriller|
+Movie:Legal Deceit (1997) Rating:0.118033 Genres:Thriller|
+Movie:Stranger in the House (1997) Rating:0.118033 Genres:Thriller|
+Movie:Killer (Bulletproof Heart) (1994) Rating:0.118033 Genres:Thriller|
+Movie:Tie That Binds, The (1995) Rating:0.118033 Genres:Thriller|
+Movie:Blink (1994) Rating:0.118033 Genres:Thriller|
+Movie:Assassins (1995) Rating:0.118033 Genres:Thriller|
+Movie:Jade (1995) Rating:0.118033 Genres:Thriller|
+Movie:Safe (1995) Rating:0.118033 Genres:Thriller|
+Movie:Innocents, The (1961) Rating:0.118033 Genres:Thriller|
+Movie:Sliver (1993) Rating:0.118033 Genres:Thriller|
+Movie:Love and a .45 (1994) Rating:0.118033 Genres:Thriller|
+Movie:Shallow Grave (1994) Rating:0.118033 Genres:Thriller|
+Movie:Malice (1993) Rating:0.118033 Genres:Thriller|
+Movie:Switchback (1997) Rating:0.118033 Genres:Thriller|
+Movie:Underworld (1997) Rating:0.118033 Genres:Thriller|
+Movie:Turbulence (1997) Rating:0.118033 Genres:Thriller|
+Movie:Shadow Conspiracy (1997) Rating:0.118033 Genres:Thriller|
+Movie:Rich Man's Wife, The (1996) Rating:0.118033 Genres:Thriller|
+Movie:Fear (1996) Rating:0.118033 Genres:Thriller|
+Movie:Killing Zoe (1994) Rating:0.118033 Genres:Thriller|
+Movie:Mute Witness (1994) Rating:0.118033 Genres:Thriller|
+Movie:39 Steps, The (1935) Rating:0.118033 Genres:Thriller|
+Movie:Fan, The (1996) Rating:0.118033 Genres:Thriller|
+Movie:Red Rock West (1992) Rating:0.118033 Genres:Thriller|
+Movie:Assignment, The (1997) Rating:0.118033 Genres:Thriller|
+Movie:Cape Fear (1991) Rating:0.118033 Genres:Thriller|
+Movie:Nikita (La Femme Nikita) (1990) Rating:0.118033 Genres:Thriller|
+Movie:Four Rooms (1995) Rating:0.118033 Genres:Thriller|
+Movie:Twin Town (1997) Rating:0.114754 Genres:Crime|Comedy|
+Movie:Carpool (1996) Rating:0.114754 Genres:Crime|Comedy|
+Movie:Some Like It Hot (1959) Rating:0.114754 Genres:Crime|Comedy|
+Movie:Grosse Pointe Blank (1997) Rating:0.114754 Genres:Crime|Comedy|
+Movie:Sting, The (1973) Rating:0.114754 Genres:Crime|Comedy|
+Movie:Striptease (1996) Rating:0.114754 Genres:Crime|Comedy|
+Movie:Mask, The (1994) Rating:0.114754 Genres:Fantasy|Crime|Comedy|
+Movie:Secret Adventures of Tom Thumb, The (1993) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Amazing Panda Adventure, The (1995) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Far From Home: The Adventures of Yellow Dog (1995) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Gold Diggers: The Secret of Bear Mountain (1995) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Tom and Huck (1995) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Second Jungle Book: Mowgli & Baloo, The (1997) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Wild America (1997) Rating:0.111475 Genres:Adventure|Children's|
+Movie:In the Army Now (1994) Rating:0.111475 Genres:War|Comedy|
+Movie:Escape to Witch Mountain (1975) Rating:0.111475 Genres:Adventure|Fantasy|Children's|
+Movie:Adventures of Pinocchio, The (1996) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Homeward Bound II: Lost in San Francisco (1996) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Lassie (1994) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Mediterraneo (1991) Rating:0.111475 Genres:War|Comedy|
+Movie:Indian in the Cupboard, The (1995) Rating:0.111475 Genres:Adventure|Fantasy|Children's|
+Movie:Alaska (1996) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Andre (1994) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Casper (1995) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Canadian Bacon (1994) Rating:0.111475 Genres:War|Comedy|
+Movie:McHale's Navy (1997) Rating:0.111475 Genres:War|Comedy|
+Movie:Swiss Family Robinson (1960) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Bananas (1971) Rating:0.111475 Genres:War|Comedy|
+Movie:Fly Away Home (1996) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Duck Soup (1933) Rating:0.111475 Genres:War|Comedy|
+Movie:Black Beauty (1994) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Fly Away Home (1996) Rating:0.111475 Genres:Adventure|Children's|
+Movie:M*A*S*H (1970) Rating:0.111475 Genres:War|Comedy|
+Movie:Homeward Bound: The Incredible Journey (1993) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Flipper (1996) Rating:0.111475 Genres:Adventure|Children's|
+Movie:Mark of Zorro, The (1940) Rating:0.104918 Genres:Adventure|
+Movie:Phantom, The (1996) Rating:0.104918 Genres:Adventure|
+Movie:Man Who Would Be King, The (1975) Rating:0.104918 Genres:Adventure|
+Movie:Treasure of the Sierra Madre, The (1948) Rating:0.104918 Genres:Adventure|
+Movie:Secret of Roan Inish, The (1994) Rating:0.104918 Genres:Adventure|
+Movie:Stalker (1979) Rating:0.098361 Genres:Sci-Fi|Mystery|
+Movie:Night of the Living Dead (1968) Rating:0.098361 Genres:Sci-Fi|Horror|
+Movie:Blob, The (1958) Rating:0.098361 Genres:Sci-Fi|Horror|
+Movie:Robert A. Heinlein's The Puppet Masters (1994) Rating:0.098361 Genres:Sci-Fi|Horror|
+Movie:Pocahontas (1995) Rating:0.091803 Genres:Romance|Musical|Children's|Animation|
+Movie:Bram Stoker's Dracula (1992) Rating:0.091803 Genres:Romance|Horror|
+Movie:Laura (1944) Rating:0.088525 Genres:Film-Noir|Crime|Mystery|
+Movie:Blade Runner (1982) Rating:0.088525 Genres:Film-Noir|Sci-Fi|
+Movie:That Darn Cat! (1965) Rating:0.081967 Genres:Comedy|Children's|Mystery|
+Movie:Ghost in the Shell (Kokaku kidotai) (1995) Rating:0.081967 Genres:Sci-Fi|Animation|
+Movie:That Darn Cat! (1997) Rating:0.081967 Genres:Comedy|Children's|Mystery|
+Movie:That Darn Cat! (1997) Rating:0.081967 Genres:Comedy|Children's|Mystery|
+Movie:Singin' in the Rain (1952) Rating:0.081967 Genres:Romance|Musical|
+Movie:American in Paris, An (1951) Rating:0.081967 Genres:Romance|Musical|
+Movie:My Fair Lady (1964) Rating:0.081967 Genres:Romance|Musical|
+Movie:Dirty Dancing (1987) Rating:0.081967 Genres:Romance|Musical|
+Movie:Tetsuo II: Body Hammer (1992) Rating:0.078689 Genres:Sci-Fi|
+Movie:Alphaville (1965) Rating:0.078689 Genres:Sci-Fi|
+Movie:Screamers (1995) Rating:0.078689 Genres:Sci-Fi|
+Movie:Species (1995) Rating:0.078689 Genres:Sci-Fi|
+Movie:Forbidden Planet (1956) Rating:0.078689 Genres:Sci-Fi|
+Movie:Apple Dumpling Gang, The (1975) Rating:0.078689 Genres:Western|Comedy|Children's|
+Movie:Clockwork Orange, A (1971) Rating:0.078689 Genres:Sci-Fi|
+Movie:Brazil (1985) Rating:0.078689 Genres:Sci-Fi|
+Movie:Lady of Burlesque (1943) Rating:0.075410 Genres:Comedy|Mystery|
+Movie:Machine, The (1994) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Cemetery Man (Dellamorte Dellamore) (1994) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Dracula: Dead and Loving It (1995) Rating:0.075410 Genres:Comedy|Horror|
+Movie:April Fool's Day (1986) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Bad Taste (1987) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Braindead (1992) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Manhattan Murder Mystery (1993) Rating:0.075410 Genres:Comedy|Mystery|
+Movie:Howling, The (1981) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Tales from the Hood (1995) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Man Who Knew Too Little, The (1997) Rating:0.075410 Genres:Comedy|Mystery|
+Movie:Young Frankenstein (1974) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Frighteners, The (1996) Rating:0.075410 Genres:Comedy|Horror|
+Movie:Aladdin (1992) Rating:0.075410 Genres:Musical|Comedy|Children's|Animation|
+Movie:Temptress Moon (Feng Yue) (1996) Rating:0.072131 Genres:Romance|
+Movie:Hugo Pool (1997) Rating:0.072131 Genres:Romance|
+Movie:Leading Man, The (1996) Rating:0.072131 Genres:Romance|
+Movie:Liebelei (1933) Rating:0.072131 Genres:Romance|
+Movie:Promise, The (Versprechen, Das) (1994) Rating:0.072131 Genres:Romance|
+Movie:Modern Affair, A (1995) Rating:0.072131 Genres:Romance|
+Movie:Shooting Fish (1997) Rating:0.072131 Genres:Romance|
+Movie:Swept from the Sea (1997) Rating:0.072131 Genres:Romance|
+Movie:Fall (1997) Rating:0.072131 Genres:Romance|
+Movie:Love and Other Catastrophes (1996) Rating:0.072131 Genres:Romance|
+Movie:1-900 (1994) Rating:0.072131 Genres:Romance|
+Movie:Crude Oasis, The (1995) Rating:0.072131 Genres:Romance|
+Movie:Jack and Sarah (1995) Rating:0.072131 Genres:Romance|
+Movie:Walking and Talking (1996) Rating:0.072131 Genres:Romance|
+Movie:Kissed (1996) Rating:0.072131 Genres:Romance|
+Movie:Hugo Pool (1997) Rating:0.072131 Genres:Romance|
+Movie:Commandments (1997) Rating:0.072131 Genres:Romance|
+Movie:Mrs. Dalloway (1997) Rating:0.072131 Genres:Romance|
+Movie:Lightning Jack (1994) Rating:0.072131 Genres:Western|Comedy|
+Movie:Affair to Remember, An (1957) Rating:0.072131 Genres:Romance|
+Movie:City of Angels (1998) Rating:0.072131 Genres:Romance|
+Movie:Tango Lesson, The (1997) Rating:0.072131 Genres:Romance|
+Movie:Love Jones (1997) Rating:0.072131 Genres:Romance|
+Movie:Touch (1997) Rating:0.072131 Genres:Romance|
+Movie:Persuasion (1995) Rating:0.072131 Genres:Romance|
+Movie:City Slickers II: The Legend of Curly's Gold (1994) Rating:0.072131 Genres:Western|Comedy|
+Movie:Kama Sutra: A Tale of Love (1996) Rating:0.072131 Genres:Romance|
+Movie:Mary Poppins (1964) Rating:0.072131 Genres:Musical|Comedy|Children's|
+Movie:Nightmare Before Christmas, The (1993) Rating:0.072131 Genres:Musical|Comedy|Children's|
+Movie:Crossfire (1947) Rating:0.068852 Genres:Film-Noir|Crime|
+Movie:Band Wagon, The (1953) Rating:0.065574 Genres:Comedy|Musical|
+Movie:Joe's Apartment (1996) Rating:0.065574 Genres:Comedy|Musical|
+Movie:Funny Face (1957) Rating:0.065574 Genres:Comedy|Musical|
+Movie:Great Race, The (1965) Rating:0.065574 Genres:Comedy|Musical|
+Movie:Victor/Victoria (1982) Rating:0.065574 Genres:Comedy|Musical|
+Movie:Aladdin and the King of Thieves (1996) Rating:0.065574 Genres:Comedy|Children's|Animation|
+Movie:Spice World (1997) Rating:0.065574 Genres:Comedy|Musical|
+Movie:Toy Story (1995) Rating:0.065574 Genres:Comedy|Children's|Animation|
+Movie:Kazaam (1996) Rating:0.062295 Genres:Fantasy|Comedy|Children's|
+Movie:Little Big League (1994) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Big Green, The (1995) Rating:0.062295 Genres:Comedy|Children's|
+Movie:First Kid (1996) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Harriet the Spy (1996) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Home Alone 3 (1997) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Flubber (1997) Rating:0.062295 Genres:Fantasy|Comedy|Children's|
+Movie:Shaggy Dog, The (1959) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Richie Rich (1994) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Angels in the Outfield (1994) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Mouse Hunt (1997) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Matilda (1996) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Little Rascals, The (1994) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Flintstones, The (1994) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Heavyweights (1994) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Air Bud (1997) Rating:0.062295 Genres:Comedy|Children's|
+Movie:George of the Jungle (1997) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Jungle2Jungle (1997) Rating:0.062295 Genres:Comedy|Children's|
+Movie:101 Dalmatians (1996) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Love Bug, The (1969) Rating:0.062295 Genres:Comedy|Children's|
+Movie:D3: The Mighty Ducks (1996) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Home Alone (1990) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Santa Clause, The (1994) Rating:0.062295 Genres:Comedy|Children's|
+Movie:Deceiver (1997) Rating:0.059016 Genres:Crime|
+Movie:Clean Slate (Coup de Torchon) (1981) Rating:0.059016 Genres:Crime|
+Movie:Mad Dog Time (1996) Rating:0.059016 Genres:Crime|
+Movie:Innocent Sleep, The (1995) Rating:0.059016 Genres:Crime|
+Movie:Gang Related (1997) Rating:0.059016 Genres:Crime|
+Movie:Gridlock'd (1997) Rating:0.059016 Genres:Crime|
+Movie:Big Bang Theory, The (1994) Rating:0.059016 Genres:Crime|
+Movie:Switchblade Sisters (1975) Rating:0.059016 Genres:Crime|
+Movie:Original Gangstas (1996) Rating:0.059016 Genres:Crime|
+Movie:Curdled (1996) Rating:0.059016 Genres:Crime|
+Movie:2 Days in the Valley (1996) Rating:0.059016 Genres:Crime|
+Movie:Keys to Tulsa (1997) Rating:0.059016 Genres:Crime|
+Movie:Freeway (1996) Rating:0.059016 Genres:Crime|
+Movie:Young Poisoner's Handbook, The (1995) Rating:0.059016 Genres:Crime|
+Movie:Deceiver (1997) Rating:0.059016 Genres:Crime|
+Movie:Beavis and Butt-head Do America (1996) Rating:0.059016 Genres:Comedy|Animation|
+Movie:Grand Day Out, A (1992) Rating:0.059016 Genres:Comedy|Animation|
+Movie:Wrong Trousers, The (1993) Rating:0.059016 Genres:Comedy|Animation|
+Movie:Kansas City (1996) Rating:0.059016 Genres:Crime|
+Movie:You So Crazy (1994) Rating:0.055738 Genres:Comedy|
+Movie:Wedding Bell Blues (1996) Rating:0.055738 Genres:Comedy|
+Movie:8 Heads in a Duffel Bag (1997) Rating:0.055738 Genres:Comedy|
+Movie:Getting Away With Murder (1996) Rating:0.055738 Genres:Comedy|
+Movie:Chairman of the Board (1998) Rating:0.055738 Genres:Comedy|
+Movie:Big One, The (1997) Rating:0.055738 Genres:Documentary|Comedy|
+Movie:Sudden Manhattan (1996) Rating:0.055738 Genres:Comedy|
+Movie:Land and Freedom (Tierra y libertad) (1995) Rating:0.055738 Genres:War|
+Movie:Paris, France (1993) Rating:0.055738 Genres:Comedy|
+Movie:Sixth Man, The (1997) Rating:0.055738 Genres:Comedy|
+Movie:Intimate Relations (1996) Rating:0.055738 Genres:Comedy|
+Movie:B*A*P*S (1997) Rating:0.055738 Genres:Comedy|
+Movie:Love Serenade (1996) Rating:0.055738 Genres:Comedy|
+Movie:Guantanamera (1994) Rating:0.055738 Genres:Comedy|
+Movie:Death in Brunswick (1991) Rating:0.055738 Genres:Comedy|
+Movie:Schizopolis (1996) Rating:0.055738 Genres:Comedy|
+Movie:Pharaoh's Army (1995) Rating:0.055738 Genres:War|
+Movie:Quartier Mozart (1992) Rating:0.055738 Genres:Comedy|
+Movie:Careful (1992) Rating:0.055738 Genres:Comedy|
+Movie:Destiny Turns on the Radio (1995) Rating:0.055738 Genres:Comedy|
+Movie:It Takes Two (1995) Rating:0.055738 Genres:Comedy|
+Movie:Cosi (1996) Rating:0.055738 Genres:Comedy|
+Movie:Underground (1995) Rating:0.055738 Genres:War|
+Movie:Senseless (1998) Rating:0.055738 Genres:Comedy|
+Movie:Sprung (1997) Rating:0.055738 Genres:Comedy|
+Movie:Children of the Revolution (1996) Rating:0.055738 Genres:Comedy|
+Movie:Getting Even with Dad (1994) Rating:0.055738 Genres:Comedy|
+Movie:Three Lives and Only One Death (1996) Rating:0.055738 Genres:Comedy|
+Movie:Bewegte Mann, Der (1994) Rating:0.055738 Genres:Comedy|
+Movie:Prisoner of the Mountains (Kavkazsky Plennik) (1996) Rating:0.055738 Genres:War|
+Movie:Santa with Muscles (1996) Rating:0.055738 Genres:Comedy|
+Movie:Grosse Fatigue (1994) Rating:0.055738 Genres:Comedy|
+Movie:Farmer & Chase (1995) Rating:0.055738 Genres:Comedy|
+Movie:Mostro, Il (1994) Rating:0.055738 Genres:Comedy|
+Movie:Window to Paris (1994) Rating:0.055738 Genres:Comedy|
+Movie:Fausto (1993) Rating:0.055738 Genres:Comedy|
+Movie:Chasers (1994) Rating:0.055738 Genres:Comedy|
+Movie:Reckless (1995) Rating:0.055738 Genres:Comedy|
+Movie:Boys, Les (1997) Rating:0.055738 Genres:Comedy|
+Movie:Here Comes Cookie (1935) Rating:0.055738 Genres:Comedy|
+Movie:Bye Bye, Love (1995) Rating:0.055738 Genres:Comedy|
+Movie:House Party 3 (1994) Rating:0.055738 Genres:Comedy|
+Movie:Steal Big, Steal Little (1995) Rating:0.055738 Genres:Comedy|
+Movie:SubUrbia (1997) Rating:0.055738 Genres:Comedy|
+Movie:Gilligan's Island: The Movie (1998) Rating:0.055738 Genres:Comedy|
+Movie:Gordy (1995) Rating:0.055738 Genres:Comedy|
+Movie:Withnail and I (1987) Rating:0.055738 Genres:Comedy|
+Movie:Meet Wally Sparks (1997) Rating:0.055738 Genres:Comedy|
+Movie:Falling in Love Again (1980) Rating:0.055738 Genres:Comedy|
+Movie:Search for One-eye Jimmy, The (1996) Rating:0.055738 Genres:Comedy|
+Movie:Sexual Life of the Belgians, The (1994) Rating:0.055738 Genres:Comedy|
+Movie:Ed's Next Move (1996) Rating:0.055738 Genres:Comedy|
+Movie:Lover's Knot (1996) Rating:0.055738 Genres:Comedy|
+Movie:Mille bolle blu (1993) Rating:0.055738 Genres:Comedy|
+Movie:Larger Than Life (1996) Rating:0.055738 Genres:Comedy|
+Movie:Metisse (Café au Lait) (1993) Rating:0.055738 Genres:Comedy|
+Movie:Open Season (1996) Rating:0.055738 Genres:Comedy|
+Movie:National Lampoon's Senior Trip (1995) Rating:0.055738 Genres:Comedy|
+Movie:Late Bloomers (1996) Rating:0.055738 Genres:Comedy|
+Movie:Stripes (1981) Rating:0.055738 Genres:Comedy|
+Movie:Celtic Pride (1996) Rating:0.055738 Genres:Comedy|
+Movie:Denise Calls Up (1995) Rating:0.055738 Genres:Comedy|
+Movie:Ed (1996) Rating:0.055738 Genres:Comedy|
+Movie:Out to Sea (1997) Rating:0.055738 Genres:Comedy|
+Movie:North (1994) Rating:0.055738 Genres:Comedy|
+Movie:Life with Mikey (1993) Rating:0.055738 Genres:Comedy|
+Movie:Gone Fishin' (1997) Rating:0.055738 Genres:Comedy|
+Movie:A Chef in Love (1996) Rating:0.055738 Genres:Comedy|
+Movie:For Love or Money (1993) Rating:0.055738 Genres:Comedy|
+Movie:Bushwhacked (1995) Rating:0.055738 Genres:Comedy|
+Movie:Old Lady Who Walked in the Sea, The (Vieille qui marchait dans la mer, La) (1991) Rating:0.055738 Genres:Comedy|
+Movie:Chairman of the Board (1998) Rating:0.055738 Genres:Comedy|
+Movie:Ready to Wear (Pret-A-Porter) (1994) Rating:0.055738 Genres:Comedy|
+Movie:Angus (1995) Rating:0.055738 Genres:Comedy|
+Movie:Friday (1995) Rating:0.055738 Genres:Comedy|
+Movie:Mixed Nuts (1994) Rating:0.055738 Genres:Comedy|
+Movie:Amos & Andrew (1993) Rating:0.055738 Genres:Comedy|
+Movie:Maybe, Maybe Not (Bewegte Mann, Der) (1994) Rating:0.055738 Genres:Comedy|
+Movie:Cops and Robbersons (1994) Rating:0.055738 Genres:Comedy|
+Movie:Man of the House (1995) Rating:0.055738 Genres:Comedy|
+Movie:Major Payne (1994) Rating:0.055738 Genres:Comedy|
+Movie:Dunston Checks In (1996) Rating:0.055738 Genres:Comedy|
+Movie:Women, The (1939) Rating:0.055738 Genres:Comedy|
+Movie:Sum of Us, The (1994) Rating:0.055738 Genres:Comedy|
+Movie:Love & Human Remains (1993) Rating:0.055738 Genres:Comedy|
+Movie:Phat Beach (1996) Rating:0.055738 Genres:Comedy|
+Movie:Road to Wellville, The (1994) Rating:0.055738 Genres:Comedy|
+Movie:I'm Not Rappaport (1996) Rating:0.055738 Genres:Comedy|
+Movie:Up in Smoke (1978) Rating:0.055738 Genres:Comedy|
+Movie:Faithful (1996) Rating:0.055738 Genres:Comedy|
+Movie:Flirting With Disaster (1996) Rating:0.055738 Genres:Comedy|
+Movie:High School High (1996) Rating:0.055738 Genres:Comedy|
+Movie:Thin Line Between Love and Hate, A (1996) Rating:0.055738 Genres:Comedy|
+Movie:Live Nude Girls (1995) Rating:0.055738 Genres:Comedy|
+Movie:Dear God (1996) Rating:0.055738 Genres:Comedy|
+Movie:Celestial Clockwork (1994) Rating:0.055738 Genres:Comedy|
+Movie:Party Girl (1995) Rating:0.055738 Genres:Comedy|
+Movie:Living in Oblivion (1995) Rating:0.055738 Genres:Comedy|
+Movie:Bottle Rocket (1996) Rating:0.055738 Genres:Comedy|
+Movie:Koyaanisqatsi (1983) Rating:0.055738 Genres:War|Documentary|
+Movie:Don't Be a Menace to South Central While Drinking Your Juice in the Hood (1996) Rating:0.055738 Genres:Comedy|
+Movie:Pallbearer, The (1996) Rating:0.055738 Genres:Comedy|
+Movie:Mr. Wrong (1996) Rating:0.055738 Genres:Comedy|
+Movie:Associate, The (1996) Rating:0.055738 Genres:Comedy|
+Movie:House Arrest (1996) Rating:0.055738 Genres:Comedy|
+Movie:Multiplicity (1996) Rating:0.055738 Genres:Comedy|
+Movie:Rent-a-Kid (1995) Rating:0.055738 Genres:Comedy|
+Movie:Drop Dead Fred (1991) Rating:0.055738 Genres:Fantasy|Comedy|
+Movie:Cool Runnings (1993) Rating:0.055738 Genres:Comedy|
+Movie:Beverly Hillbillies, The (1993) Rating:0.055738 Genres:Comedy|
+Movie:Jury Duty (1995) Rating:0.055738 Genres:Comedy|
+Movie:Fathers' Day (1997) Rating:0.055738 Genres:Comedy|
+Movie:Romy and Michele's High School Reunion (1997) Rating:0.055738 Genres:Comedy|
+Movie:Waiting for Guffman (1996) Rating:0.055738 Genres:Comedy|
+Movie:Pest, The (1997) Rating:0.055738 Genres:Comedy|
+Movie:Stupids, The (1996) Rating:0.055738 Genres:Comedy|
+Movie:Clean Slate (1994) Rating:0.055738 Genres:Comedy|
+Movie:Cabin Boy (1994) Rating:0.055738 Genres:Comedy|
+Movie:Stuart Saves His Family (1995) Rating:0.055738 Genres:Comedy|
+Movie:Kiss Me, Guido (1997) Rating:0.055738 Genres:Comedy|
+Movie:Hear My Song (1991) Rating:0.055738 Genres:Comedy|
+Movie:Dazed and Confused (1993) Rating:0.055738 Genres:Comedy|
+Movie:Pushing Hands (1992) Rating:0.055738 Genres:Comedy|
+Movie:Blue in the Face (1995) Rating:0.055738 Genres:Comedy|
+Movie:Airheads (1994) Rating:0.055738 Genres:Comedy|
+Movie:Down Periscope (1996) Rating:0.055738 Genres:Comedy|
+Movie:Love and Death on Long Island (1997) Rating:0.055738 Genres:Comedy|
+Movie:Half Baked (1998) Rating:0.055738 Genres:Comedy|
+Movie:Vermin (1998) Rating:0.055738 Genres:Comedy|
+Movie:Mr. Magoo (1997) Rating:0.055738 Genres:Comedy|
+Movie:For Richer or Poorer (1997) Rating:0.055738 Genres:Comedy|
+Movie:Vegas Vacation (1997) Rating:0.055738 Genres:Comedy|
+Movie:My Fellow Americans (1996) Rating:0.055738 Genres:Comedy|
+Movie:That Thing You Do! (1996) Rating:0.055738 Genres:Comedy|
+Movie:Great White Hype, The (1996) Rating:0.055738 Genres:Comedy|
+Movie:Eddie (1996) Rating:0.055738 Genres:Comedy|
+Movie:Girl 6 (1996) Rating:0.055738 Genres:Comedy|
+Movie:Jimmy Hollywood (1994) Rating:0.055738 Genres:Comedy|
+Movie:Air Up There, The (1994) Rating:0.055738 Genres:Comedy|
+Movie:Crooklyn (1994) Rating:0.055738 Genres:Comedy|
+Movie:Bullets Over Broadway (1994) Rating:0.055738 Genres:Comedy|
+Movie:Tommy Boy (1995) Rating:0.055738 Genres:Comedy|
+Movie:Dumb & Dumber (1994) Rating:0.055738 Genres:Comedy|
+Movie:Happy Gilmore (1996) Rating:0.055738 Genres:Comedy|
+Movie:Father of the Bride Part II (1995) Rating:0.055738 Genres:Comedy|
+Movie:Real Genius (1985) Rating:0.055738 Genres:Comedy|
+Movie:Ruling Class, The (1972) Rating:0.055738 Genres:Comedy|
+Movie:Made in America (1993) Rating:0.055738 Genres:Comedy|
+Movie:Exit to Eden (1994) Rating:0.055738 Genres:Comedy|
+Movie:Nine Months (1995) Rating:0.055738 Genres:Comedy|
+Movie:Mallrats (1995) Rating:0.055738 Genres:Comedy|
+Movie:In the Bleak Midwinter (1995) Rating:0.055738 Genres:Comedy|
+Movie:Better Off Dead... (1985) Rating:0.055738 Genres:Comedy|
+Movie:Miami Rhapsody (1995) Rating:0.055738 Genres:Comedy|
+Movie:Leave It to Beaver (1997) Rating:0.055738 Genres:Comedy|
+Movie:Rocket Man (1997) Rating:0.055738 Genres:Comedy|
+Movie:Being There (1979) Rating:0.055738 Genres:Comedy|
+Movie:My Man Godfrey (1936) Rating:0.055738 Genres:Comedy|
+Movie:Father of the Bride (1950) Rating:0.055738 Genres:Comedy|
+Movie:It Happened One Night (1934) Rating:0.055738 Genres:Comedy|
+Movie:Stalingrad (1993) Rating:0.055738 Genres:War|
+Movie:Son in Law (1993) Rating:0.055738 Genres:Comedy|
+Movie:Fatal Instinct (1993) Rating:0.055738 Genres:Comedy|
+Movie:Great Dictator, The (1940) Rating:0.055738 Genres:Comedy|
+Movie:Local Hero (1983) Rating:0.055738 Genres:Comedy|
+Movie:Bringing Up Baby (1938) Rating:0.055738 Genres:Comedy|
+Movie:His Girl Friday (1940) Rating:0.055738 Genres:Comedy|
+Movie:First Wives Club, The (1996) Rating:0.055738 Genres:Comedy|
+Movie:Heathers (1989) Rating:0.055738 Genres:Comedy|
+Movie:Harold and Maude (1971) Rating:0.055738 Genres:Comedy|
+Movie:Bob Roberts (1992) Rating:0.055738 Genres:Comedy|
+Movie:My Favorite Year (1982) Rating:0.055738 Genres:Comedy|
+Movie:Very Brady Sequel, A (1996) Rating:0.055738 Genres:Comedy|
+Movie:Kingpin (1996) Rating:0.055738 Genres:Comedy|
+Movie:Spy Hard (1996) Rating:0.055738 Genres:Comedy|
+Movie:Brady Bunch Movie, The (1995) Rating:0.055738 Genres:Comedy|
+Movie:Robin Hood: Men in Tights (1993) Rating:0.055738 Genres:Comedy|
+Movie:Mrs. Doubtfire (1993) Rating:0.055738 Genres:Comedy|
+Movie:Fear of a Black Hat (1993) Rating:0.055738 Genres:Comedy|
+Movie:Addams Family Values (1993) Rating:0.055738 Genres:Comedy|
+Movie:Naked Gun 33 1/3: The Final Insult (1994) Rating:0.055738 Genres:Comedy|
+Movie:Houseguest (1994) Rating:0.055738 Genres:Comedy|
+Movie:Jeffrey (1995) Rating:0.055738 Genres:Comedy|
+Movie:Black Sheep (1996) Rating:0.055738 Genres:Comedy|
+Movie:Bio-Dome (1996) Rating:0.055738 Genres:Comedy|
+Movie:Clueless (1995) Rating:0.055738 Genres:Comedy|
+Movie:Ace Ventura: When Nature Calls (1995) Rating:0.055738 Genres:Comedy|
+Movie:Critical Care (1997) Rating:0.055738 Genres:Comedy|
+Movie:Bean (1997) Rating:0.055738 Genres:Comedy|
+Movie:How to Be a Player (1997) Rating:0.055738 Genres:Comedy|
+Movie:Mother (1996) Rating:0.055738 Genres:Comedy|
+Movie:In & Out (1997) Rating:0.055738 Genres:Comedy|
+Movie:Liar Liar (1997) Rating:0.055738 Genres:Comedy|
+Movie:Fierce Creatures (1997) Rating:0.055738 Genres:Comedy|
+Movie:Full Monty, The (1997) Rating:0.055738 Genres:Comedy|
+Movie:Shall We Dance? (1996) Rating:0.055738 Genres:Comedy|
+Movie:Austin Powers: International Man of Mystery (1997) Rating:0.055738 Genres:Comedy|
+Movie:Kolya (1996) Rating:0.055738 Genres:Comedy|
+Movie:Raising Arizona (1987) Rating:0.055738 Genres:Comedy|
+Movie:Monty Python and the Holy Grail (1974) Rating:0.055738 Genres:Comedy|
+Movie:Private Benjamin (1980) Rating:0.055738 Genres:Comedy|
+Movie:Return of the Pink Panther, The (1974) Rating:0.055738 Genres:Comedy|
+Movie:Weekend at Bernie's (1989) Rating:0.055738 Genres:Comedy|
+Movie:Monty Python's Life of Brian (1979) Rating:0.055738 Genres:Comedy|
+Movie:Fish Called Wanda, A (1988) Rating:0.055738 Genres:Comedy|
+Movie:Cable Guy, The (1996) Rating:0.055738 Genres:Comedy|
+Movie:Cold Comfort Farm (1995) Rating:0.055738 Genres:Comedy|
+Movie:Kids in the Hall: Brain Candy (1996) Rating:0.055738 Genres:Comedy|
+Movie:Sgt. Bilko (1996) Rating:0.055738 Genres:Comedy|
+Movie:Theodore Rex (1995) Rating:0.055738 Genres:Comedy|
+Movie:Ref, The (1994) Rating:0.055738 Genres:Comedy|
+Movie:Ace Ventura: Pet Detective (1994) Rating:0.055738 Genres:Comedy|
+Movie:Clerks (1994) Rating:0.055738 Genres:Comedy|
+Movie:Billy Madison (1995) Rating:0.055738 Genres:Comedy|
+Movie:To Wong Foo, Thanks for Everything! Julie Newmar (1995) Rating:0.055738 Genres:Comedy|
+Movie:Brothers McMullen, The (1995) Rating:0.055738 Genres:Comedy|
+Movie:Birdcage, The (1996) Rating:0.055738 Genres:Comedy|
+Movie:Mighty Aphrodite (1995) Rating:0.055738 Genres:Comedy|
+Movie:Big Sleep, The (1946) Rating:0.029508 Genres:Film-Noir|Mystery|
+Movie:Maltese Falcon, The (1941) Rating:0.029508 Genres:Film-Noir|Mystery|
+Movie:Woman in Question, The (1950) Rating:0.019672 Genres:Mystery|
+Movie:Spirits of the Dead (Tre passi nel delirio) (1968) Rating:0.019672 Genres:Horror|
+Movie:Fear, The (1995) Rating:0.019672 Genres:Horror|
+Movie:Night Flier (1997) Rating:0.019672 Genres:Horror|
+Movie:Relic, The (1997) Rating:0.019672 Genres:Horror|
+Movie:Cronos (1992) Rating:0.019672 Genres:Horror|
+Movie:Cats Don't Dance (1997) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Phantoms (1998) Rating:0.019672 Genres:Horror|
+Movie:Nosferatu a Venezia (1986) Rating:0.019672 Genres:Horror|
+Movie:Amityville: Dollhouse (1996) Rating:0.019672 Genres:Horror|
+Movie:Candyman: Farewell to the Flesh (1995) Rating:0.019672 Genres:Horror|
+Movie:Castle Freak (1995) Rating:0.019672 Genres:Horror|
+Movie:Prophecy, The (1995) Rating:0.019672 Genres:Horror|
+Movie:Addiction, The (1995) Rating:0.019672 Genres:Horror|
+Movie:Bad Moon (1996) Rating:0.019672 Genres:Horror|
+Movie:Wishmaster (1997) Rating:0.019672 Genres:Horror|
+Movie:Nosferatu (Nosferatu, eine Symphonie des Grauens) (1922) Rating:0.019672 Genres:Horror|
+Movie:Cat People (1982) Rating:0.019672 Genres:Horror|
+Movie:Candyman (1992) Rating:0.019672 Genres:Horror|
+Movie:Bride of Frankenstein (1935) Rating:0.019672 Genres:Horror|
+Movie:Body Parts (1991) Rating:0.019672 Genres:Horror|
+Movie:Audrey Rose (1977) Rating:0.019672 Genres:Horror|
+Movie:Blood For Dracula (Andy Warhol's Dracula) (1974) Rating:0.019672 Genres:Horror|
+Movie:Fog, The (1980) Rating:0.019672 Genres:Horror|
+Movie:Three Caballeros, The (1945) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Hunchback of Notre Dame, The (1996) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Beauty and the Beast (1991) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Wes Craven's New Nightmare (1994) Rating:0.019672 Genres:Horror|
+Movie:Stephen King's The Langoliers (1995) Rating:0.019672 Genres:Horror|
+Movie:Lord of Illusions (1995) Rating:0.019672 Genres:Horror|
+Movie:Anastasia (1997) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Daytrippers, The (1996) Rating:0.019672 Genres:Mystery|
+Movie:Dumbo (1941) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Thin Man, The (1934) Rating:0.019672 Genres:Mystery|
+Movie:James and the Giant Peach (1996) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Omen, The (1976) Rating:0.019672 Genres:Horror|
+Movie:Carrie (1976) Rating:0.019672 Genres:Horror|
+Movie:Burnt Offerings (1976) Rating:0.019672 Genres:Horror|
+Movie:Body Snatcher, The (1945) Rating:0.019672 Genres:Horror|
+Movie:Birds, The (1963) Rating:0.019672 Genres:Horror|
+Movie:Amityville Curse, The (1990) Rating:0.019672 Genres:Horror|
+Movie:Amityville Horror, The (1979) Rating:0.019672 Genres:Horror|
+Movie:Amityville II: The Possession (1982) Rating:0.019672 Genres:Horror|
+Movie:Amityville: A New Generation (1993) Rating:0.019672 Genres:Horror|
+Movie:Amityville 3-D (1983) Rating:0.019672 Genres:Horror|
+Movie:Amityville 1992: It's About Time (1992) Rating:0.019672 Genres:Horror|
+Movie:American Werewolf in London, An (1981) Rating:0.019672 Genres:Horror|
+Movie:Fantasia (1940) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Children of the Corn: The Gathering (1996) Rating:0.019672 Genres:Horror|
+Movie:Alice in Wonderland (1951) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Cinderella (1950) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Tales from the Crypt Presents: Bordello of Blood (1996) Rating:0.019672 Genres:Horror|
+Movie:Tales From the Crypt Presents: Demon Knight (1995) Rating:0.019672 Genres:Horror|
+Movie:Prophecy II, The (1998) Rating:0.019672 Genres:Horror|
+Movie:Lost Highway (1997) Rating:0.019672 Genres:Mystery|
+Movie:Nightmare on Elm Street, A (1984) Rating:0.019672 Genres:Horror|
+Movie:Shining, The (1980) Rating:0.019672 Genres:Horror|
+Movie:All Dogs Go to Heaven 2 (1996) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Snow White and the Seven Dwarfs (1937) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Lion King, The (1994) Rating:0.019672 Genres:Musical|Children's|Animation|
+Movie:Terror in a Texas Town (1958) Rating:0.016393 Genres:Western|
+Movie:Outlaw, The (1943) Rating:0.016393 Genres:Western|
+Movie:Angel and the Badman (1947) Rating:0.016393 Genres:Western|
+Movie:Bad Girls (1994) Rating:0.016393 Genres:Western|
+Movie:Dead Man (1995) Rating:0.016393 Genres:Western|
+Movie:High Noon (1952) Rating:0.016393 Genres:Western|
+Movie:Once Upon a Time in the West (1969) Rating:0.016393 Genres:Western|
+Movie:Davy Crockett, King of the Wild Frontier (1955) Rating:0.016393 Genres:Western|
+Movie:Wild Bunch, The (1969) Rating:0.016393 Genres:Western|
+Movie:Wyatt Earp (1994) Rating:0.016393 Genres:Western|
+Movie:Wild Bill (1995) Rating:0.016393 Genres:Western|
+Movie:Tombstone (1993) Rating:0.016393 Genres:Western|
+Movie:Unforgiven (1992) Rating:0.016393 Genres:Western|
+Movie:T-Men (1947) Rating:0.009836 Genres:Film-Noir|
+Movie:Raw Deal (1948) Rating:0.009836 Genres:Film-Noir|
+Movie:Madame Butterfly (1995) Rating:0.009836 Genres:Musical|
+Movie:Inspector General, The (1949) Rating:0.009836 Genres:Musical|
+Movie:Gigi (1958) Rating:0.009836 Genres:Musical|
+Movie:Meet Me in St. Louis (1944) Rating:0.009836 Genres:Musical|
+Movie:Sunset Blvd. (1950) Rating:0.009836 Genres:Film-Noir|
+Movie:Sound of Music, The (1965) Rating:0.009836 Genres:Musical|
+Movie:Gumby: The Movie (1995) Rating:0.009836 Genres:Children's|Animation|
+Movie:Land Before Time III: The Time of the Great Giving (1995) (V) Rating:0.009836 Genres:Children's|Animation|
+Movie:Swan Princess, The (1994) Rating:0.009836 Genres:Children's|Animation|
+Movie:Oliver & Company (1988) Rating:0.009836 Genres:Children's|Animation|
+Movie:Balto (1995) Rating:0.009836 Genres:Children's|Animation|
+Movie:Winnie the Pooh and the Blustery Day (1968) Rating:0.009836 Genres:Children's|Animation|
+Movie:Fox and the Hound, The (1981) Rating:0.009836 Genres:Children's|Animation|
+Movie:Sword in the Stone, The (1963) Rating:0.009836 Genres:Children's|Animation|
+Movie:Pinocchio (1940) Rating:0.009836 Genres:Children's|Animation|
+Movie:Aristocats, The (1970) Rating:0.009836 Genres:Children's|Animation|
+Movie:Simple Wish, A (1997) Rating:0.006557 Genres:Fantasy|Children's|
+Movie:Zeus and Roxanne (1997) Rating:0.006557 Genres:Children's|
+Movie:Baby-Sitters Club, The (1995) Rating:0.006557 Genres:Children's|
+Movie:Daniel Defoe's Robinson Crusoe (1996) Rating:0.006557 Genres:Children's|
+Movie:NeverEnding Story III, The (1994) Rating:0.006557 Genres:Fantasy|Children's|
+Movie:Faust (1994) Rating:0.003279 Genres:Animation|
+Movie:Wallace & Gromit: The Best of Aardman Animation (1996) Rating:0.003279 Genres:Animation|

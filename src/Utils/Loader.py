@@ -91,7 +91,8 @@ class Loader:
             self.n_rating = 0
             
             self.matrix = lil_matrix((n_users+1,n_movies+1),dtype=np.double)
-           
+            
+         
             
             #self.users = []
             #self.movies = []
