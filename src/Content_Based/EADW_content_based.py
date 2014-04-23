@@ -217,7 +217,7 @@ def evaluate(userEvaluating , evaluatedMovieId):
              for watchedMovieId in data_set[userEvaluating].keys():
                 watchedMovieGenres = Set(movies[watchedMovieId].id_String_Genres.keys())
                 evaluatedMovieGenres = Set(movies[evaluatedMovieId].id_String_Genres.keys())
-                watchedMovieSimilarity[watchedMovieId] = len(watchedMoviesGenres).intersection(evaluatedMovieGenres)
+                watchedMovieSimilarity[watchedMovieId] = len(watchedMovieGenres.intersection(evaluatedMovieGenres))
             
              
              maxWatchedSimilarity = max(watchedMovieSimilarity.values())

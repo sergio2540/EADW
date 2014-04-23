@@ -1,22 +1,16 @@
 from __future__ import division
 import math
-
 import numpy as np
-
 from scipy.sparse import *
 from scipy.spatial.distance import *
-
-
 from Utils import *
 from Content_Based import EADW_content_based
-
+import numpy as np
+from numpy import linalg
 
 #########################################
 ######          UTILS               #####
 #########################################
-
-import numpy as np
-from numpy import linalg
 
 #X
 features = []
@@ -304,9 +298,9 @@ def make_prediction_func(most_similar_func, normalization_func, inverse_normaliz
 def prediction_trainning(loader):
         return loader.load_dataSet(args.training)  
 
-w = [0.5,0.5,0]
+#w = [0.5,0.5,0]
 def prediction_test(test_path, error_analisys):
-    global w
+    #global w
     with open(test_path) as u_test_file:
         u_tests = u_test_file.readlines()
         
@@ -318,7 +312,7 @@ def prediction_test(test_path, error_analisys):
             m = int(movie_id)
             
             
-            n = lambda u,m: -1*b(u,m)
+            n = lambda u,m: -1*baseline(u,m)
             pred_func = make_prediction_func(getMostSimilarMovies,n,b) 
             
             item_based_r = pred_func(u,m)
@@ -326,12 +320,12 @@ def prediction_test(test_path, error_analisys):
             
            
           
-            predicted_r = round(w[0]*item_based_r + w[1]*content_based_r + w[2])
+            predicted_r = 0*item_based_r + 1*content_based_r
             
-            features.append((item_based_r, content_based_r))
-            relevants.append(true_r)
-            w = lregression(features,relevants)
-            print w
+            #features.append((item_based_r, content_based_r))
+            #relevants.append(true_r)
+            #w = lregression(features,relevants)
+            #print w
           
             
             diff = error_analisys.collect(true_r, predicted_r)
