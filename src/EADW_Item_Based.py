@@ -160,7 +160,7 @@ def baseline(user, movie):
     
     return B[user,movie]
 
-#S = np.zeros((1682+1,1682+1),dtype=np.double)
+S = np.zeros((1682+1,1682+1),dtype=np.double)
 
 def make_similiraty_func(distance_func,normalization_func,opt1,opt2):
     
@@ -345,16 +345,12 @@ def prediction_test(test_path, error_analisys):
     gaveMore = 0
     gaveLess = 0
     #global w
-    file = open("Compare",'w')
+    file = open("Compare",'w+')
     with open(test_path) as u_test_file:
-        u_tests = u_test_file.readlines()
-<<<<<<< Updated upstream
-        
+        u_tests = u_test_file.readlines()       
        
-        
-=======
         i = 0
->>>>>>> Stashed changes
+        
         for test in u_tests:
             (user_id, movie_id, rating, timestamp) = test.split("\t")
             
@@ -363,7 +359,7 @@ def prediction_test(test_path, error_analisys):
             m = int(movie_id)
             
             
-<<<<<<< Updated upstream
+
             #n = lambda u,m: -1*baseline(u,m)
             #pred_func = make_prediction_func(getMostSimilarMovies,n,b) 
             
@@ -373,7 +369,6 @@ def prediction_test(test_path, error_analisys):
            
             predicted_r = content_based_r
             #predicted_r = 0*item_based_r + 1*content_based_r
-=======
             n = lambda u,m: -1*baseline(u,m)
             pred_func = make_prediction_func(getMostSimilarMovies,n,baseline) 
             
@@ -388,7 +383,7 @@ def prediction_test(test_path, error_analisys):
                 i += 1
                 continue
             #1*content_based_r
->>>>>>> Stashed changes
+
             
             #features.append((item_based_r, content_based_r))
             #relevants.append(true_r)
@@ -402,7 +397,7 @@ def prediction_test(test_path, error_analisys):
             print i
             print "ERROR STATUS"
             print error_analisys.getCountError()
-<<<<<<< Updated upstream
+
             if predicted_r == true_r:
                 gotIt += 1
             if predicted_r > true_r:
@@ -411,10 +406,10 @@ def prediction_test(test_path, error_analisys):
                 gaveLess += 1
             file.write("User:%s Evaluated:%s" %(user_id, movie_id))
             file.write("Predicted:%f" % predicted_r)
-=======
+
             print u
             print m
->>>>>>> Stashed changes
+
             print predicted_r
             file.write("True:%f" % true_r)
             print true_r
