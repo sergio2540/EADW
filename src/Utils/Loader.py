@@ -1,10 +1,8 @@
 from __future__ import division
 import numpy as np
-from sklearn import linear_model
-from sklearn import preprocessing
 from scipy.spatial.distance import cosine
 from scipy.sparse import *
-#from sparsesvd import sparsesvd
+from csc import divisi2
 import math
 
 
@@ -89,28 +87,10 @@ class Loader:
             
             self.acc_rating = 0
             self.n_rating = 0
-            
+            self.data = set()  
             self.matrix = lil_matrix((n_users+1,n_movies+1),dtype=np.double)
             
-         
             
-            #self.users = []
-            #self.movies = []
-            print "Ratings"
-            print n_ratings
-          
-        
-        
-        '''def getSVD(self,k):
-            a = self.matrix_csc
-            print a
-            ut, s, vt = sparsesvd(a,k) 
-            self.U = ut
-            self.s = s
-            self.V = vt'''
-        
-       
-        
             
         def setRating(self, user, movie, rating):
           
@@ -120,8 +100,8 @@ class Loader:
             m = int(movie)
         
                 
-            self.matrix[u, m] = r
-            
+            self.data.add( (r, u, m) )
+            self.matrix[u,m] = r
     
             
             self.acc_rating += r
@@ -156,10 +136,11 @@ class Loader:
         
         
         def getMeanUser(self,user):
-            
-            mean = np.mean(self.matrix_csr.data[self.matrix_csr.indptr[user]:self.matrix_csr.indptr[user+1]])
-            
+            t = self.matrix_csr.data[self.matrix_csr.indptr[user]:self.matrix_csr.indptr[user+1]]
+            mean = np.mean(t)
+            #print len(t)
             if math.isnan(mean):
+                #print "nan"
                 return self.getMeanRating()
             return mean
        
@@ -173,9 +154,11 @@ class Loader:
         
         def getMeanMovie(self,movie):
             
-            mean = np.mean(self.matrix_csc.data[self.matrix_csc.indptr[movie]:self.matrix_csc.indptr[movie+1]])
-            
+            t = self.matrix_csc.data[self.matrix_csc.indptr[movie]:self.matrix_csc.indptr[movie+1]]
+            mean = np.mean(t)
+            #print len(t)
             if math.isnan(mean):
+                #print "nan"
                 return self.getMeanRating()
             return mean
            
@@ -201,20 +184,27 @@ class Loader:
             self.matrix_csc.eliminate_zeros()
             self.matrix_csc.sort_indices()
             
-           
+            for n in self.matrix.nonzero():
+                print n
             
-            '''for u in range(0,943+1):
-                for m in range(0,1682+1):
-                    if self.matrix[u,m] == 0 or math.isnan(self.matrix[u,m]):
-                        self.matrix[u,m] = 0.5*self.getMeanUser(u) + 0.5*self.getMeanMovie(m)
-                        print self.matrix[u,m]
             
-            print "for-end"
-            self.matrix_csc = self.matrix.tocsc()
-            print "end"
-            self.getSVD(10)
-            print "svd-end"'''
-           
+            
+        def make_svd(self):
+            matrix = divisi2.make_sparse(self.data).normalize_all()
+            self.U,self.s,self.V = matrix.svd(k=11)
+            self.predictions = divisi2.reconstruct_activation(self.V, self.s)
+            del self.data
+            print "init end"
+            
+            
+        def sim(self,m1,m2):
+            #print "sim"
+            #print self.predictions.entry_named(m1,m2)
+            try:
+                return self.predictions.entry_named(m1,m2)
+            except:
+                return -1
+            
 
             
     

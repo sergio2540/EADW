@@ -69,8 +69,11 @@ def getMoviesRatedBy(user):
 def mean_rating():
     return dataSet.getMeanRating()
 
+
+
+#Mean and Average
 B = np.zeros((943+1,1683+1))
-def b(user,movie):
+def z_score(user,movie):
     
     if B[user,movie] == 0:
         
@@ -106,7 +109,7 @@ def base_movie(movie):
     lambda2 =  25
     
     (s, n)  = dataSet.getUsersThatRateB(movie)
-
+    
     res = s - n*mean
     
     res = res/(lambda2 + n)
@@ -123,7 +126,7 @@ def base_user(user):
         return b_u[user]
     
     mean = mean_rating()
-    lambda3 = 25
+    lambda3 = 10
     accum = 0
     movies = getMoviesRatedBy(user)
     
@@ -138,7 +141,11 @@ def base_user(user):
     return res
 
 
+B = np.zeros((943+1,1682+1),dtype=np.double)
 def baseline(user, movie):
+    
+    if not B[user,movie] == 0:
+        return B[user,movie]
     
     mean = mean_rating()
     #print "mean %f" % mean
@@ -149,9 +156,11 @@ def baseline(user, movie):
     bu = base_user(user)
     #print "b_u %f" % bu
     
-    return mean + bm + bu
+    B[user,movie] = mean + bm + bu
+    
+    return B[user,movie]
 
-S = np.zeros((1682+1,1682+1),dtype=np.double)
+#S = np.zeros((1682+1,1682+1),dtype=np.double)
 
 def make_similiraty_func(distance_func,normalization_func,opt1,opt2):
     
@@ -236,15 +245,15 @@ def make_similiraty_func(distance_func,normalization_func,opt1,opt2):
     
     return similarity
     
-def getMostSimilarMovies(user, movie):
+def getMostSimilarMovies(user, movie,norm):
    
-    k = 50
+    k = 25
     sims = []
     
-    cs = lambda u,v :  cosine(u,v) + 1
-    norm = lambda u,m : -1* b(u,m)
+    #cs = lambda u,v :  cosine(u,v) + 1
+    #norm = lambda u,m : -1* baseline(u,m)
     
-    similarity = make_similiraty_func(cs,norm,True, True)
+    #similarity = make_similiraty_func(cs,norm,True, True)
     
     ratedByUser = dataSet.getMoviesRatedBy(user)
     
@@ -253,11 +262,18 @@ def getMostSimilarMovies(user, movie):
     for m in ratedByUser:
         #print m
         #print movie
-        s = similarity(m,movie)
+        
+        #U = getUsersThatRateAandB(m,movie)
+        s = dataSet.sim(m,movie)
+        #kdd08joren
+        #s = (U/(100+U))*s
+        
+        #p = 2.5
+        #s = s*math.pow(abs(s),p-1)
         
         #se descartar negativos tenho menos erro
         
-        if not s == None and not math.isnan(s) and s > 0:
+        if not s == None and not math.isnan(s):
             sims.append((m,s))
     
 
@@ -278,10 +294,33 @@ def make_prediction_func(most_similar_func, normalization_func, inverse_normaliz
         divisor = 0
         dividendo = 0
         
-        mostSimilar = most_similar_func(user,movie)
+        #Wen 2008
+        #Se user fez rating de menos de 5 filmes retorna a media do filme
+        ur = len(dataSet.getMoviesRatedBy(user))
+        if ur < 4:
+            print ur
+            return -1
+            #return dataSet.getMeanMovie(movie)
+        
+        mr = len(dataSet.getUsersThatRate(movie))
+        if mr < 4:
+            print mr
+            return -1
+            #return dataSet.getMeanUser(user)
+            
+        mostSimilar = most_similar_func(user,movie,normalization_func)
         
         for (m,s) in mostSimilar: 
+            
+            #if mr < 5:
+                #dividendo += s*((dataSet.getRating(user, m) - dataSet.getMeanUser(user))/dataSet.getVarUser(user))
+                #print dividendo
+            #elif ur < 5:
+                #dividendo += s*((dataSet.getRating(user, m) - dataSet.getMeanMovie(movie))/dataSet.getVarMovie(movie))
+                #print dividendo 
+            #else:
             dividendo += s*(dataSet.getRating(user, m) + normalization_func(user, m))
+            
             divisor += abs(s)
             #print m,s
         
@@ -289,6 +328,8 @@ def make_prediction_func(most_similar_func, normalization_func, inverse_normaliz
         if not divisor == 0:
             res = dividendo/divisor     
             
+        #print "Baseline %s" % (inverse_normalization_func(user,movie))
+        #print "Divisao %s" %  (dataSet.getVarUser(user)*res)
         return inverse_normalization_func(user,movie) + res
         
     #retorna funcao com o binding da funcao de similiridade e normalizacao    
@@ -307,9 +348,13 @@ def prediction_test(test_path, error_analisys):
     file = open("Compare",'w')
     with open(test_path) as u_test_file:
         u_tests = u_test_file.readlines()
+<<<<<<< Updated upstream
         
        
         
+=======
+        i = 0
+>>>>>>> Stashed changes
         for test in u_tests:
             (user_id, movie_id, rating, timestamp) = test.split("\t")
             
@@ -318,6 +363,7 @@ def prediction_test(test_path, error_analisys):
             m = int(movie_id)
             
             
+<<<<<<< Updated upstream
             #n = lambda u,m: -1*baseline(u,m)
             #pred_func = make_prediction_func(getMostSimilarMovies,n,b) 
             
@@ -327,6 +373,22 @@ def prediction_test(test_path, error_analisys):
            
             predicted_r = content_based_r
             #predicted_r = 0*item_based_r + 1*content_based_r
+=======
+            n = lambda u,m: -1*baseline(u,m)
+            pred_func = make_prediction_func(getMostSimilarMovies,n,baseline) 
+            
+            item_based_r = pred_func(u,m)
+            #content_based_r = EADW_content_based.evaluate(u,m)
+            
+           
+          
+            #predicted_r = dataSet.predict(u,m)
+            predicted_r = 1*item_based_r
+            if predicted_r == -1 :
+                i += 1
+                continue
+            #1*content_based_r
+>>>>>>> Stashed changes
             
             #features.append((item_based_r, content_based_r))
             #relevants.append(true_r)
@@ -336,7 +398,11 @@ def prediction_test(test_path, error_analisys):
          
             diff = error_analisys.collect(true_r, predicted_r)
             
+            print "IMPROVE"
+            print i
+            print "ERROR STATUS"
             print error_analisys.getCountError()
+<<<<<<< Updated upstream
             if predicted_r == true_r:
                 gotIt += 1
             if predicted_r > true_r:
@@ -345,12 +411,18 @@ def prediction_test(test_path, error_analisys):
                 gaveLess += 1
             file.write("User:%s Evaluated:%s" %(user_id, movie_id))
             file.write("Predicted:%f" % predicted_r)
+=======
+            print u
+            print m
+>>>>>>> Stashed changes
             print predicted_r
             file.write("True:%f" % true_r)
             print true_r
             print "ERRO %f" % error_analisys.getMeanAbsoluteError()
             print "Numero de correctos %d" % error_analisys.getNCorrects()
             print ""
+           
+        
             
             #if diff > 2.0:
                 #print u
@@ -375,6 +447,17 @@ if __name__ == "__main__":
     loader = Loader()
     dataSet = prediction_trainning(loader)
     
+    
+    #for u in range(1,943+1):
+        #mu = dataSet.getMeanUser(u)
+        #for m in range(1,1682+1):
+            #mr = dataSet.getMeanMovie(m)
+            #dataSet.data.add((baseline(u,m), u,m))
+       # print u
+            
+    print "end"
+    dataSet.make_svd()
+    print "end svd"
     error_analisys = Error_Analisys()
     
     prediction_test(args.test,error_analisys)

@@ -151,12 +151,12 @@ with open('ml-100k/u1.base') as u_data_file:
     for data in u_datas:
         (user_id, movie_id, rating, timestamp) = data.split("\t")
         
-	if int(user_id) not in data_set.keys():
+    if int(user_id) not in data_set.keys():
             data_set[int(user_id)] = {}
-	#alterado        
-	users[int(user_id)].preference.addPreferences(movies[int(movie_id)].id_String_Genres)
+    #alterado        
+    users[int(user_id)].preference.addPreferences(movies[int(movie_id)].id_String_Genres)
         
-	data_set[int(user_id)][int(movie_id)] = float(rating)
+    data_set[int(user_id)][int(movie_id)] = float(rating)
     evaluated_movie = movies[int(movie_id)]
     evaluated_movie.user_votes[int(user_id)] = float(rating)
     evaluated_movie.votes_sum += float(rating)

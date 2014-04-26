@@ -19,6 +19,8 @@ processDb()
 
 MIN_RATING=1
 MAX_RATING=5
+ERROR_MINIMIZER=3
+
 def createIndex():
     schema = Schema(title=TEXT(stored=True),id = NUMERIC(stored=True), content=TEXT(stored=True))
     ix = create_in("indexes/imdbIndex", schema)
@@ -92,7 +94,7 @@ def getAverageBasedOnGenres(movie):
 
     if totalAvg > 0:
         return totalAvg/totalCounted
-    return 3
+    return ERROR_MINIMIZER
 
  
 ##used to calculate pearson correlation between users.receives two user ids
@@ -130,16 +132,9 @@ def calculatePrediction(currentUserId,similarUsersIdsPearson,evaluatedMovie):
     
     dividend = 0
     divisor = 0
-    canPass = true
-    
-    if max(similarUsersIdsPearson.values()) <= 0:
-        canPass = false
-    else: canPass = true
-        
-    
     for userId, similarity in similarUsersIdsPearson.iteritems():
         #print("Similarity:%f" % similarity)
-        if canPass:
+        if similarity <= 0:
             continue
         avgUser = sum(data_set[userId].values())/len(data_set[userId])
        # print("AvgUser:%f" % avgUser)
@@ -157,6 +152,8 @@ def calculatePrediction(currentUserId,similarUsersIdsPearson,evaluatedMovie):
         return MAX_RATING
     #print("Rating:%f" %(avgEvaluatingUser + (dividend/divisor)))
     return avgEvaluatingUser + (dividend/divisor)
+  
+  
   
 def getSimilars(evaluatedMovieId):
     ##Search whoosh index.
@@ -363,11 +360,3 @@ def evaluate(userEvaluating , evaluatedMovieId):
    #    for r in results:
     #        print r
      #  print "Number of results:", results.scored_length()
-                
-       
-
-
-
-
-
-
