@@ -1,7 +1,6 @@
 from imdb import helpers
 from imdb import IMDb
 import urllib2
-from sets import Set
 import os
 from urllib2 import HTTPError
 ##ia = imdb.IMDb('http')

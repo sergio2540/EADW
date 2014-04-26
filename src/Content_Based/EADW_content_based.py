@@ -1,7 +1,7 @@
  # -*- coding: UTF-8 -*-
 from __future__ import division
-from sets import Set
 import operator
+from sys import stdin
 
 from whoosh.index import create_in
 from whoosh.fields import *
@@ -17,6 +17,8 @@ from __builtin__ import sum, max
 
 processDb()
 
+MIN_RATING=1
+MAX_RATING=5
 def createIndex():
     schema = Schema(title=TEXT(stored=True),id = NUMERIC(stored=True), content=TEXT(stored=True))
     ix = create_in("indexes/imdbIndex", schema)
@@ -37,6 +39,61 @@ def createIndex():
 #print(imdbRating)
 ##############adicionar dados de sinopses,realizadores,actores
 createIndex()
+
+def getAverageBasedOnGenres(movie):
+    
+    #MovieId->Number of genres that match the evaluated movie.
+    similarMoviesAndSimilarity = {}
+    #Every Avg of every movie
+    everyAvg = {}
+    evaluatedMovieGenres = movies[movie].id_String_Genres
+    
+    #Calculate most similar and get every avg of movies.
+    for movieIdent, movie in movies.iteritems():
+        currentMovieGenres = movie.id_String_Genres
+        similarMoviesAndSimilarity[movieIdent] = len(evaluatedMovieGenres.intersect(currentMovieGenres))
+        everyArg[movieIdent] = movie.votes_sum / movie.votes_num
+        
+        
+     
+
+    ##get the maximum genre similarity
+    maxSimilarity = max(similarMoviesAndSimilarity.values())
+    mostSimilar = set()
+
+    #Get ids of most similar
+    for movieIdent, similarity in similarMoviesAndSimilarity.iteritems():
+         if similarity == maxSimilarity:
+             mostSimilar[movieIdent].add(movieIdent)
+    
+
+    totalAvg = 0
+    totalCounted = 0
+    for movieIdent in mostSimilar:
+        #movieAvg = everyAvg[movieIdent]['Avg']
+        movieAvg = everyAvg[movieIdent]
+        if movieAvg > 0:
+            #totalAvg += everyAvg[movieIdent]['Avg']
+            totalAvg += everyAvg[movieIdent]
+            totalCounted += 1
+            
+    if totalAvg != 0:
+            return totalAvg/totalCounted
+    
+    totalAvg = 0
+    totalCounted = 0
+    for movieIdent, score in everyArg.iteritems():
+        #movieAvg = everyAvg[movieIdent]['Avg']
+        movieAvg = everyAvg[movieIdent]
+        if movieAvg > 0:
+            #totalAvg += everyAvg[movieIdent]['Avg']
+            totalAvg += everyAvg[movieIdent]
+            totalCounted += 1
+
+    if totalAvg > 0:
+        return totalAvg/totalCounted
+    return 3
+
  
 ##used to calculate pearson correlation between users.receives two user ids
 def calculatePearsonCorrelation(userA, userB):
@@ -50,9 +107,9 @@ def calculatePearsonCorrelation(userA, userB):
 
     userWatchedMovies = data_set[userA]
     compareUserWatchedMovies = data_set[userB]
-    commonMovies = Set(userWatchedMovies.keys()).intersection(Set(compareUserWatchedMovies.keys()))
+    commonMovies = set(userWatchedMovies.keys()).intersection(set(compareUserWatchedMovies.keys()))
     
-
+    
     for movie in commonMovies:
            dividend += (userWatchedMovies[movie]-avgUser)*(compareUserWatchedMovies[movie]-avgCompUser)
            tempLeftDivisor += (userWatchedMovies[movie]-avgUser)**2
@@ -68,24 +125,51 @@ def calculatePearsonCorrelation(userA, userB):
     return similarity
 
 ##similarUsersIdsPearson->dictionary that maps user to similarity to cyrrentUserId
-def calculatePrediction(currentUserId,similarUsersIdsPearson,movieId):
+def calculatePrediction(currentUserId,similarUsersIdsPearson,evaluatedMovie):
 
+    
     dividend = 0
     divisor = 0
+    canPass = true
+    
+    if max(similarUsersIdsPearson.values()) <= 0:
+        canPass = false
+    else: canPass = true
+        
+    
     for userId, similarity in similarUsersIdsPearson.iteritems():
         #print("Similarity:%f" % similarity)
-        if similarity < 0:
+        if canPass:
             continue
-        dividend += similarity*(data_set[userId][movieId]-(sum(data_set[userId].values())/len(data_set[userId])))
+        avgUser = sum(data_set[userId].values())/len(data_set[userId])
+       # print("AvgUser:%f" % avgUser)
+        dividend += similarity*(data_set[userId][evaluatedMovie]- avgUser)
+       # print("Dividend:%f" % dividend)
         divisor += similarity
-    avgUser = sum(data_set[currentUserId].values())/len(data_set[currentUserId])
-    
+       # print("Divisor:%f" % divisor)
+    avgEvaluatingUser = sum(data_set[currentUserId].values())/len(data_set[currentUserId])
+    #print("AvgEvaluatingUser:%f" % avgEvaluatingUser)
     if divisor == 0:
-        return 0
-    
-    return avgUser + (dividend/divisor)
+        return avgEvaluatingUser
+    if avgEvaluatingUser + (dividend/divisor) < MIN_RATING:##################################################
+        return MIN_RATING
+    if avgEvaluatingUser + (dividend/divisor) > MAX_RATING:
+        return MAX_RATING
+    #print("Rating:%f" %(avgEvaluatingUser + (dividend/divisor)))
+    return avgEvaluatingUser + (dividend/divisor)
   
-
+def getSimilars(evaluatedMovieId):
+    ##Search whoosh index.
+    ix = open_dir("./indexes/imdbIndex")
+    similarMovies = {}
+    with ix.searcher() as searcher:
+        content = searcher.document(id=evaluatedMovieId)
+        query = QueryParser("content", ix.schema, group=OrGroup).parse(content['content'])#####group???
+        results = searcher.search(query, limit=10)
+        for i, r in enumerate(results):
+            if r['id'] != evaluatedMovieId: 
+                similarMovies[r['id']] = results.score(i)
+    return similarMovies
 #####################
 #Evaluation steps:
 #1)Check if we voted for this movie. If we did, we return that result
@@ -109,16 +193,16 @@ def evaluate(userEvaluating , evaluatedMovieId):
         return data_set[userEvaluating][evaluatedMovieId]
 
     ##Search whoosh index.
-    ix = open_dir("./indexes/imdbIndex")
-    similarMovies = {}
-    with ix.searcher() as searcher:
-        content = searcher.document(id=evaluatedMovieId)
-        query = QueryParser("content", ix.schema, group=OrGroup).parse(content['content'])#####group???
-        results = searcher.search(query, limit=10)
-        for i, r in enumerate(results):
-            if r['id'] != evaluatedMovieId: 
-                similarMovies[r['id']] = results.score(i)
-
+    #ix = open_dir("./indexes/imdbIndex")
+    #similarMovies = {}
+    #with ix.searcher() as searcher:
+     #   content = searcher.document(id=evaluatedMovieId)
+      #  query = QueryParser("content", ix.schema, group=OrGroup).parse(content['content'])#####group???
+       # results = searcher.search(query, limit=10)
+        #for i, r in enumerate(results):
+         #   if r['id'] != evaluatedMovieId: 
+          #      similarMovies[r['id']] = results.score(i)
+    similarMovies = getSimilars(evaluatedMovieId)
     #print("Found:%d similar movies" % len(similarMovies))
     #for movieId, score in similarMovies.iteritems():
         #print("Movie name:%s genres:%s" %(movies[movieId].title,movies[movieId].genreStringRep()))
@@ -127,7 +211,7 @@ def evaluate(userEvaluating , evaluatedMovieId):
     ##we will keep only the movies that are most similar in genre. this allows us to extend the search from 10 to 100.
     movieSimilarity = {}
     for movieId in similarMovies.keys():
-        movieSimilarity[movieId] = len(Set(movies[movieId].id_String_Genres.keys()).intersection(Set(movies[evaluatedMovieId].id_String_Genres.keys())))
+        movieSimilarity[movieId] = len(set(movies[movieId].id_String_Genres.keys()).intersection(set(movies[evaluatedMovieId].id_String_Genres.keys())))
 
     ##get the maximum genre similarity
     maxSimilarity = max(movieSimilarity.values())
@@ -137,8 +221,8 @@ def evaluate(userEvaluating , evaluatedMovieId):
          if similarity == maxSimilarity:
              mostSimilar[movieId] = similarMovies[movieId]
     
-    mostSimilarKeys = Set(mostSimilar.keys())
-    dataKeys = Set(data_set[userEvaluating].keys())
+    mostSimilarKeys = set(mostSimilar.keys())
+    dataKeys = set(data_set[userEvaluating].keys())
     commonKeys = mostSimilarKeys.intersection(dataKeys)
 
     #print("Most similar:%d" % len(mostSimilar))
@@ -152,10 +236,11 @@ def evaluate(userEvaluating , evaluatedMovieId):
     else: 
         #print("We have seen the similar movies")
         ##if we saw the common movies, we return a rating that is the average of the most similar regarding genres
-        print "Media dos filmes mais comuns que eu vi"
+        #print "Media dos filmes mais comuns que eu vi"
         totalRating = 0
         for movieId in commonKeys:
             totalRating += data_set[userEvaluating][movieId]
+        #return round(totalRating/len(commonKeys))
         return totalRating/len(commonKeys)
     
     
@@ -177,11 +262,13 @@ def evaluate(userEvaluating , evaluatedMovieId):
 
         ##we create an association (movieId, ('score'(whoosho score), 'users':(userId,similarity to evaluator)))
         for userId, ratedByUser in data_set.iteritems():
-            if ratedByUser.has_key(evaluatedMovieId):
+            #We check if the user has seen movies similar to ours
+            #if ratedByUser.has_key(evaluatedMovieId):
+             if ratedByUser.has_key(movieId):
                 userWatchedMovies = data_set[userEvaluating]
                 compareUserWatchedMovies = data_set[userId]
 
-                commonMovies = Set(compareUserWatchedMovies.keys()).intersection(Set(userWatchedMovies.keys()))
+                commonMovies = set(compareUserWatchedMovies.keys()).intersection(set(userWatchedMovies.keys()))
 
                 ##to find similarity between users we must check if the users have seen the same movies or a set of common movies.
                 if len(commonMovies) == 0:
@@ -192,7 +279,7 @@ def evaluate(userEvaluating , evaluatedMovieId):
                 ###Pearson correlation. How similar are the users
                 similarMoviesAndWatchers[movieId]['users'][userId]=calculatePearsonCorrelation(userEvaluating, userId)
     
-    #Now we calculate the predictions for every similar movies based on prrevious calculated similarities between users.
+    #Now we calculate the predictions for every similar movies based on previous calculated similarities between users.
     similarMoviesAndPredictions = {}
     for movieId, scoreUsers in similarMoviesAndWatchers.iteritems():
         similarMoviesAndPredictions[movieId] = {}
@@ -203,20 +290,23 @@ def evaluate(userEvaluating , evaluatedMovieId):
              #print("The movie with id:%d title:%s wasn't watched by anyone." % (movieId, movies[movieId].title))
 
           
-            #We look for movies that are similar in genres tho this movie and do an average of the ratings.
+            #We look for movies that are similar in genres to this movie and do an average of the ratings(the movies must have 
+            #been watched by the user).
+            #We check if the user has voted on any movie.
              if not data_set.has_key(userEvaluating) or len(data_set[userEvaluating]) == 0:
-                 print("User hasn't votted yet.\nIMDB rating used")
+                 #print("User hasn't voted yet.IMDB rating used")
                  if imdbRating.has_key(movieId):
                      #Imdb rating 1 a 10
                      similarMoviesAndPredictions[movieId]['prediction'] = 5*imdbRating[movieId]/10
+                     
                  else:
-                     similarMoviesAndPredictions[movieId]['prediction'] = 0 ##dar 0 se imdb nao tiver votaçao?---_------>se calhar deveriamos atribuir 5??
-
-             ##we look for movies voted by the user that match the most the genres of the to be evaluated movie.
+                     similarMoviesAndPredictions[movieId]['prediction'] = getAverageBasedOnGenres(movieId) ##dar 0 se imdb nao tiver votaçao?---_------>se calhar deveriamos atribuir 5??
+                 continue
+             ##we look for movies voted by the user that match the most the genres of the one to be evaluated movie.
              watchedMovieSimilarity = {}
              for watchedMovieId in data_set[userEvaluating].keys():
-                watchedMovieGenres = Set(movies[watchedMovieId].id_String_Genres.keys())
-                evaluatedMovieGenres = Set(movies[evaluatedMovieId].id_String_Genres.keys())
+                watchedMovieGenres = set(movies[watchedMovieId].id_String_Genres.keys())
+                evaluatedMovieGenres = set(movies[evaluatedMovieId].id_String_Genres.keys())
                 watchedMovieSimilarity[watchedMovieId] = len(watchedMovieGenres.intersection(evaluatedMovieGenres))
             
              
@@ -235,21 +325,22 @@ def evaluate(userEvaluating , evaluatedMovieId):
             
         #Some users watched this movie. we predict based on their similarities with this user.
         #print("Prediction based on similarity")
-        similarMoviesAndPredictions[movieId]['prediction'] = calculatePrediction(userEvaluating,similarMoviesAndWatchers[movieId]['users'],evaluatedMovieId)
-
+        #similarMoviesAndPredictions[movieId]['prediction'] = calculatePrediction(userEvaluating,similarMoviesAndWatchers[movieId]['users'],evaluatedMovieId)
+        similarMoviesAndPredictions[movieId]['prediction'] = calculatePrediction(userEvaluating,similarMoviesAndWatchers[movieId]['users'],movieId)
          
     #print("These are the suggestions for each similar movie.")   
     totalRatings = 0
-    notZero = 0
+    notZeroCount = 0
+    print(similarMoviesAndPredictions)
     for movieId, scorePrediction in similarMoviesAndPredictions.iteritems():
-        print("Score prediction:%f" % scorePrediction['prediction'])
-        if scorePrediction['prediction'] != 0:
+        #print("Score prediction:%f" % scorePrediction['prediction'])
+        if scorePrediction['prediction'] > 0:
             totalRatings += scorePrediction['prediction']
-            notZero += 1
+            notZeroCount += 1
     
     print("Prediction based on similarity")
-    return totalRatings/ notZero
-
+    #return round(totalRatings/ notZeroCount)
+    return totalRatings/ notZeroCount
 
 
 

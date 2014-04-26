@@ -116,6 +116,9 @@ class Movie:
         self.imdb_url = imdb_url
         self.genres = genres
         self.id_String_Genres = {}
+        self.user_votes = {}
+        self.votes_sum = 0
+        self.votes_num = 0
 
     
     def __str__(self):
@@ -154,6 +157,10 @@ with open('ml-100k/u1.base') as u_data_file:
 	users[int(user_id)].preference.addPreferences(movies[int(movie_id)].id_String_Genres)
         
 	data_set[int(user_id)][int(movie_id)] = float(rating)
+    evaluated_movie = movies[int(movie_id)]
+    evaluated_movie.user_votes[int(user_id)] = float(rating)
+    evaluated_movie.votes_sum += float(rating)
+    evaluated_movie.votes_num += 1
 
 #file = open("sorteddata.txt", 'w+')
 #sortedDataByUser = sorted([(k,v) for k,v in data_set.iteritems()])

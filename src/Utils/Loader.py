@@ -4,7 +4,7 @@ from sklearn import linear_model
 from sklearn import preprocessing
 from scipy.spatial.distance import cosine
 from scipy.sparse import *
-from sparsesvd import sparsesvd
+#from sparsesvd import sparsesvd
 import math
 
 
