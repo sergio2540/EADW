@@ -304,7 +304,7 @@ def prediction_test(test_path, error_analisys):
     gaveMore = 0
     gaveLess = 0
     #global w
-    file = open("Compare",'w')
+    file = open("Compare",'w+')
     with open(test_path) as u_test_file:
         u_tests = u_test_file.readlines()
         
