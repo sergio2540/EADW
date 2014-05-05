@@ -197,47 +197,73 @@ def load_missing_files(idMovieObj):
     process_URLS(idMovieObj)
 
 
+imdbRating = {}
+
+from nltk.corpus import stopwords
 
 def processDb():
+    
+     
+
+    cachedStopWords = stopwords.words("english")
+    
     for i in range(1,1683):
         
         dataFilePath = "./DB/MovieDB/%s.json" % str(i)
         destinationPath = "./DB/ProcessedDB/%s.txt" % str(i)
-        if not os.path.exists(dataFilePath):
-            continue
+        
+        #if not os.path.exists(dataFilePath):
+            #continue
         
         dbfile = open(dataFilePath,'r')
         
         movieJSON = json.loads(dbfile.read().decode('utf8'))
         
-        toWrite = ""
-        toWrite += movieJSON['Title'] + ' '
-
+        rating = ''
+        
+        persons = ''
+        
+        summary = ''
+        
+        #Ratings
+        if movieJSON['Rating'] != '':
+            imdbRating[int(i)] = float(movieJSON['Rating'])
+        
+        #print "|%s|"%(movieJSON['Rating'])
+        
+        rating += movieJSON['Rating'] + ' '
+        
+        #Persons/names
+        
         for director in movieJSON['Directors']:
-                toWrite +=  director + ' '
+                persons +=  director + ' '
         
         for writer in movieJSON['Writer']:
-            toWrite +=  writer + ' '
+            persons +=  writer + ' '
         
         
         for actor in movieJSON['Cast']:
-            toWrite +=  actor + ' '
+            persons +=  actor + ' '
+            
+            
+        summary += movieJSON['Title'] + ' '
+
+        
                 
         for p in movieJSON['Plot']:
-            toWrite +=  p + ' '
-            
-            
-        toWrite += movieJSON['Synopsis'].replace("\n\n", "") + ' '
-        
-        regex = re.compile('[%s]' % re.escape(string.punctuation))
-        toWrite = regex.sub('', toWrite)
-        
-        toWrite += movieJSON['Rating']
-        
+            summary +=  p + ' '
+                 
+        summary += movieJSON['Synopsis'].replace("\n\n", "") + ' '
         
         for kw in movieJSON['Keywords']:
-            toWrite +=  kw + ' '        
+            for w in kw.split('-'):
+                summary +=  w + ' '    
+        
+        regex = re.compile('[%s]' % re.escape(string.punctuation))
+        summary = regex.sub('',  summary)
+        toWrite = ' '.join([word for word in summary if word not in cachedStopWords]) 
+           
             
-        newFile = open(destinationPath,'w')        
+        newFile = open(destinationPath,'w') 
         newFile.write(toWrite.encode('utf8'))
         newFile.close()

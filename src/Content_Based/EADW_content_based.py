@@ -41,7 +41,7 @@ class Content_Based:
         self.MAX_RATING=5
         self.ERROR_MINIMIZER=3
         
-        load_missing_files(movies)
+        #load_missing_files(movies)
         #load_corrected_files(movies)
         #process_URLS(movies)
  
@@ -219,23 +219,21 @@ class Content_Based:
             return data_set.getRating(userEvaluating, evaluatedMovieId)
     
         ##Search whoosh index.
-       
-        
-        similarMovies = self.getSimilars(evaluatedMovieId)
+        whooshMovies = self.getSimilars(evaluatedMovieId)
         
         #print userEvaluating
         #print evaluatedMovieId
         
         print("Evaluated Movie:%s genres:%s" %(self.movies[evaluatedMovieId].title,self.movies[evaluatedMovieId].genreStringRep()))
         
-        #print("Found:%d similar movies" % len(similarMovies))
-        #for movieId, score in similarMovies.iteritems():
+        #print("Found:%d similar movies" % len(whooshMovies))
+        #for movieId, score in whooshMovies.iteritems():
         #    print("Founded Score %s Movie:%s genres:%s" %(score, self.movies[movieId].title,self.movies[movieId].genreStringRep()))
     
           
         ##we will keep only the movies that are most similar in genre. this allows us to extend the search from 10 to 100.
         movieSimilarity = {}
-        for movieId in similarMovies.keys():
+        for movieId in whooshMovies.keys():
             movieSimilarity[movieId] = len(set(self.movies[movieId].id_String_Genres.keys()).intersection(set(self.movies[evaluatedMovieId].id_String_Genres.keys())))
     
         ##get the maximum genre similarity
@@ -244,7 +242,7 @@ class Content_Based:
     
         for movieId, similarity in movieSimilarity.iteritems():
             if similarity == maxSimilarity:
-                mostSimilar[movieId] = similarMovies[movieId]
+                mostSimilar[movieId] = whooshMovies[movieId]
         
         mostSimilarMovies = set(mostSimilar.keys())
         
@@ -253,22 +251,27 @@ class Content_Based:
         commonMovies = mostSimilarMovies.intersection(movies)
     
         #print("Most similar:%d" % len(mostSimilar))
+        
         for movieId in mostSimilarMovies:
-            print("Movie id: %d" % movieId)
+            print("Founded Score %s Movie:%s genres:%s" %(whooshMovies[movieId], self.movies[movieId].title,self.movies[movieId].genreStringRep()))
     
         ##check if the most similar movies have been watched.
         commonMoviesNumber = len(commonMovies)
         if commonMoviesNumber == 0:
             print("Hasn't seen similar movies.")
         else: 
-            #print("We have seen the similar movies")
+            print("We have seen the similar movies")
             ##if we saw the common movies, we return a rating that is the average of the most similar regarding genres
-            #print "Media dos filmes mais comuns que eu vi"
-            totalRating = 0
+            print "Media dos filmes mais comuns que eu vi"
+            
+            dividend = 0
+            divisor = 0
             for movieId in commonMovies:
-                totalRating += data_set.getRating(userEvaluating, movieId)
-            #return round(totalRating/commonMoviesNumber
-            return totalRating/commonMoviesNumber
+                dividend += data_set.getRating(userEvaluating, movieId)
+                divisor += 1
+            
+            
+            return dividend/dividend
     
         
         ##we search for users who watched those similar movies. 
@@ -354,16 +357,18 @@ class Content_Based:
             similarMoviesAndPredictions[movieId]['prediction'] = self.calculatePrediction(userEvaluating,similarMoviesAndWatchers[movieId]['users'],movieId)
              
         #print("These are the suggestions for each similar movie.")   
-        totalRatings = 0
-        notZeroCount = 0
+        dividend = 0
+        divisor = 0
+        
         print(similarMoviesAndPredictions)
+        
         for movieId, scorePrediction in similarMoviesAndPredictions.iteritems():
             #print("Score prediction:%f" % scorePrediction['prediction'])
             if scorePrediction['prediction'] > 0:
-                totalRatings += scorePrediction['prediction']
-                notZeroCount += 1
+                dividend += scorePrediction['prediction']
+                divisor += 1
         
         print("Prediction based on similarity")
         #return round(totalRatings/ notZeroCount)
-        return totalRatings/ notZeroCount
+        return dividend/divisor
     
