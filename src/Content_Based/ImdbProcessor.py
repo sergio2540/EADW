@@ -8,6 +8,8 @@ import urllib2
 import os
 from urllib2 import HTTPError
 
+from collections import Counter
+
 #ia = imdb.IMDb('http')
 #results = ia.search_movie('the passion')
 ##mv = results[0] #First result
@@ -199,18 +201,32 @@ def load_missing_files(idMovieObj):
 
 imdbRating = {}
 
+import nltk
 from nltk.corpus import stopwords
+from nltk.stem.wordnet import WordNetLemmatizer
+from nltk.tag import pos_tag
+import math
+
+token_dict = {}
+
+def tokenize(text):
+    tokens = nltk.word_tokenize(text)
+    lemmatized = [WordNetLemmatizer().lemmatize(w) for w in tokens]
+    #print lemmatized
+    return lemmatized
+
 
 def processDb():
     
-     
-
     cachedStopWords = stopwords.words("english")
     
-    for i in range(1,1683):
+    persons = {}
+    title = {}
+    summary = {}
+    
+    for id in range(1,1683):
         
-        dataFilePath = "./DB/MovieDB/%s.json" % str(i)
-        destinationPath = "./DB/ProcessedDB/%s.txt" % str(i)
+        dataFilePath = "./DB/MovieDB/%s.json" % str(id)
         
         #if not os.path.exists(dataFilePath):
             #continue
@@ -219,51 +235,79 @@ def processDb():
         
         movieJSON = json.loads(dbfile.read().decode('utf8'))
         
-        rating = ''
+        persons[id] = set()
+        title[id] = ''
+        summary[id] = ''
         
-        persons = ''
-        
-        summary = ''
+        #Title
+        title[id] += movieJSON['Title'] + ' '
         
         #Ratings
         if movieJSON['Rating'] != '':
-            imdbRating[int(i)] = float(movieJSON['Rating'])
+            imdbRating[int(id)] = float(movieJSON['Rating'])
         
         #print "|%s|"%(movieJSON['Rating'])
         
-        rating += movieJSON['Rating'] + ' '
+        #rating += movieJSON['Rating'] + ' '
         
         #Persons/names
         
         for director in movieJSON['Directors']:
-                persons +=  director + ' '
+            persons[id].add(director)
         
-        for writer in movieJSON['Writer']:
-            persons +=  writer + ' '
+        #for writer in movieJSON['Writer']:
+            #persons.add(writer)
         
         
-        for actor in movieJSON['Cast']:
-            persons +=  actor + ' '
-            
-            
-        summary += movieJSON['Title'] + ' '
-
-        
+        for actor in movieJSON['Cast'][:3]:
+            persons[id].add(actor)
                 
         for p in movieJSON['Plot']:
-            summary +=  p + ' '
+            summary[id] +=  p + ' '
                  
-        summary += movieJSON['Synopsis'].replace("\n\n", "") + ' '
+        summary[id] += movieJSON['Synopsis'].replace("\n\n", "") + ' '
         
         for kw in movieJSON['Keywords']:
             for w in kw.split('-'):
-                summary +=  w + ' '    
+                summary[id] +=  w + ' '    
         
-        regex = re.compile('[%s]' % re.escape(string.punctuation))
-        summary = regex.sub('',  summary)
-        toWrite = ' '.join([word for word in summary if word not in cachedStopWords]) 
-           
-            
+        remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
+        no_punctuation = summary[id].translate(remove_punctuation_map)      
+        tokens = nltk.word_tokenize(no_punctuation)
+        #print tokens
+        filtered = [w for w in tokens if not w in cachedStopWords]
+        #print filtered
+        
+        summary[id] = [WordNetLemmatizer().lemmatize(w) for w in filtered]
+        #print lemmatized
+        
+        for w in summary[id]:
+            if token_dict.has_key(w):
+                token_dict[w] += 1  
+                
+            else :
+                token_dict[w] = 1
+    
+        print id
+    for id in range(1,1683):
+        
+        destinationPath = "./DB/ProcessedDB/%s.txt" % str(id)
+        
+        N = len(token_dict.keys())
+        
+        w_idf = [(w,math.log(N/token_dict[w])) for w in summary[id]] 
+        
+        temp = sorted(w_idf, key=lambda w: -w[1]) 
+        print temp
+        #count = Counter(l)
+        #temp = count.most_common(50)
+        
+        s = set()
+        for (w,c) in temp[:50]:
+            s.add(w)
+        
         newFile = open(destinationPath,'w') 
-        newFile.write(toWrite.encode('utf8'))
+        newFile.write(( title[id] + ' '.join(persons[id]) +' ' + ' '.join(s)).encode('utf8'))
         newFile.close()
+    
+    

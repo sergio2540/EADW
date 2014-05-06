@@ -47,8 +47,8 @@ class Content_Based:
  
         #getMissing(movies)
         #getCorrected(movies)
-        processDb()
-        self.createIndex()
+        #processDb()
+        #self.createIndex()
         self.movies = movies
         self.data = data
 
@@ -224,7 +224,7 @@ class Content_Based:
         #print userEvaluating
         #print evaluatedMovieId
         
-        print("Evaluated Movie:%s genres:%s" %(self.movies[evaluatedMovieId].title,self.movies[evaluatedMovieId].genreStringRep()))
+        #print("Evaluated Movie:%s genres:%s" %(self.movies[evaluatedMovieId].title,self.movies[evaluatedMovieId].genreStringRep()))
         
         #print("Found:%d similar movies" % len(whooshMovies))
         #for movieId, score in whooshMovies.iteritems():
@@ -232,7 +232,7 @@ class Content_Based:
     
           
         ##we will keep only the movies that are most similar in genre. this allows us to extend the search from 10 to 100.
-        movieSimilarity = {}
+        '''movieSimilarity = {}
         for movieId in whooshMovies.keys():
             movieSimilarity[movieId] = len(set(self.movies[movieId].id_String_Genres.keys()).intersection(set(self.movies[evaluatedMovieId].id_String_Genres.keys())))
     
@@ -242,9 +242,9 @@ class Content_Based:
     
         for movieId, similarity in movieSimilarity.iteritems():
             if similarity == maxSimilarity:
-                mostSimilar[movieId] = whooshMovies[movieId]
+                mostSimilar[movieId] = whooshMovies[movieId]'''
         
-        mostSimilarMovies = set(mostSimilar.keys())
+        mostSimilarMovies = set(whooshMovies.keys())
         
         movies = set(data_set.getMoviesRatedBy(userEvaluating))
         
@@ -252,13 +252,15 @@ class Content_Based:
     
         #print("Most similar:%d" % len(mostSimilar))
         
-        for movieId in mostSimilarMovies:
-            print("Founded Score %s Movie:%s genres:%s" %(whooshMovies[movieId], self.movies[movieId].title,self.movies[movieId].genreStringRep()))
+        #for movieId in commonMovies:
+            #print("Founded Score %s Movie:%s genres:%s" %(whooshMovies[movieId], self.movies[movieId].title,self.movies[movieId].genreStringRep()))
+            #print data_set.getRating(userEvaluating, movieId)
     
         ##check if the most similar movies have been watched.
         commonMoviesNumber = len(commonMovies)
-        if commonMoviesNumber == 0:
-            print("Hasn't seen similar movies.")
+        if commonMoviesNumber < 3:
+            #print("Hasn't seen similar movies.")
+            return -1
         else: 
             print("We have seen the similar movies")
             ##if we saw the common movies, we return a rating that is the average of the most similar regarding genres
@@ -267,13 +269,13 @@ class Content_Based:
             dividend = 0
             divisor = 0
             for movieId in commonMovies:
-                dividend += data_set.getRating(userEvaluating, movieId)
-                divisor += 1
+                dividend += whooshMovies[movieId]*data_set.getRating(userEvaluating, movieId)
+                divisor += whooshMovies[movieId]
             
             
-            return dividend/dividend
+            return dividend/divisor
     
-        
+        '''
         ##we search for users who watched those similar movies. 
         similarMoviesAndWatchers = {}
         for movieId, score in mostSimilar.iteritems():
@@ -370,5 +372,5 @@ class Content_Based:
         
         print("Prediction based on similarity")
         #return round(totalRatings/ notZeroCount)
-        return dividend/divisor
+        return dividend/divisor'''
     

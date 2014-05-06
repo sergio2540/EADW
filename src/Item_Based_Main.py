@@ -296,7 +296,7 @@ def make_prediction_func(most_similar_func, normalization_func, inverse_normaliz
         
         #Wen 2008
         #Se user fez rating de menos de 5 filmes retorna a media do filme
-        ur = len(dataSet.getMoviesRatedBy(user))
+        '''ur = len(dataSet.getMoviesRatedBy(user))
         if ur < 4:
             print ur
             return -1
@@ -306,7 +306,7 @@ def make_prediction_func(most_similar_func, normalization_func, inverse_normaliz
         if mr < 4:
             print mr
             return -1
-            #return dataSet.getMeanUser(user)
+            #return dataSet.getMeanUser(user)'''
             
         mostSimilar = most_similar_func(user,movie,normalization_func)
         
@@ -340,7 +340,7 @@ def prediction_trainning(loader):
         return loader.load(args.training)  
 
 
-def prediction_test(test_path, error_analisys):
+def prediction_test(test_path, error_analisys,c):
     
     with open(test_path) as u_test_file:
         u_tests = u_test_file.readlines()       
@@ -359,16 +359,19 @@ def prediction_test(test_path, error_analisys):
         
             n = lambda u,m: -1*baseline(u,m)
             pred_func = make_prediction_func(getMostSimilarMovies,n,baseline) 
+            r = c.evaluate(u,m)
             
-            item_based_r = pred_func(u,m)
+            if(r == -1):
+                r = pred_func(u,m)
+                continue
           
             #predicted_r = dataSet.predict(u,m)
-            predicted_r = 1*item_based_r
-            if predicted_r == -1 :
-                i += 1
-                continue
+            
+            predicted_r = 1*r
+            
             #1*content_based_r
-         
+            
+      
             diff = error_analisys.collect(true_r, predicted_r)
             
             print "IMPROVE"
@@ -413,9 +416,10 @@ if __name__ == "__main__":
     print "end svd"
     error_analisys = Error_Analisys()
     
-    prediction_test(args.test,error_analisys)
     
-    
+    _data= prediction_trainning(loader)
+    c = EADW_content_based.Content_Based(_data.data,_data.users, _data.movies)
+    prediction_test(args.test,error_analisys,c)
     if args.online == True:
         prompt()
         
