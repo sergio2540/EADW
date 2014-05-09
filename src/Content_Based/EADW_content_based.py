@@ -185,7 +185,7 @@ class Content_Based:
         with ix.searcher() as searcher:
             content = searcher.document(id=evaluatedMovieId)
             query = QueryParser("content", ix.schema, group=OrGroup).parse(content['content'])#####group???
-            results = searcher.search(query, limit=25)
+            results = searcher.search(query, limit=20)
             for i, r in enumerate(results):
                 if r['id'] != evaluatedMovieId: 
                     similarMovies[r['id']] = results.score(i)
@@ -258,7 +258,7 @@ class Content_Based:
     
         ##check if the most similar movies have been watched.
         commonMoviesNumber = len(commonMovies)
-        if commonMoviesNumber < 3:
+        if commonMoviesNumber < 5:
             #print("Hasn't seen similar movies.")
             return -1
         else: 

@@ -65,12 +65,11 @@ class Data:
     
     def getMeanUser(self,user):
         t = self.matrix_csr.data[self.matrix_csr.indptr[user]:self.matrix_csr.indptr[user+1]]
-        mean = np.mean(t)
-        #print len(t)
-        if math.isnan(mean):
-            #print "nan"
+        
+        if len(t) == 0:
             return self.getMeanRating()
-        return mean
+        
+        return np.mean(t)
    
     def getVarUser(self,user):
         
@@ -83,12 +82,11 @@ class Data:
     def getMeanMovie(self,movie):
         
         t = self.matrix_csc.data[self.matrix_csc.indptr[movie]:self.matrix_csc.indptr[movie+1]]
-        mean = np.mean(t)
-        #print len(t)
-        if math.isnan(mean):
-            #print "nan"
+        
+        if len(t) == 0:
             return self.getMeanRating()
-        return mean
+        
+        return np.mean(t)
        
     
     def getVarMovie(self,movie):
@@ -119,7 +117,7 @@ class Data:
         
     def make_svd(self):
         matrix = divisi2.make_sparse(self.data).normalize_all()
-        self.U,self.s,self.V = matrix.svd(k=11)
+        self.U,self.s,self.V = matrix.svd(k=14)
         self.predictions = divisi2.reconstruct_activation(self.V, self.s)
         del self.data
         print "init end"

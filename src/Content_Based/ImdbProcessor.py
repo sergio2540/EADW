@@ -203,26 +203,47 @@ imdbRating = {}
 
 import nltk
 from nltk.corpus import stopwords
-from nltk.stem.wordnet import WordNetLemmatizer
-from nltk.tag import pos_tag
+from nltk.stem import *
 import math
 
 token_dict = {}
 
-def tokenize(text):
-    tokens = nltk.word_tokenize(text)
-    lemmatized = [WordNetLemmatizer().lemmatize(w) for w in tokens]
-    #print lemmatized
-    return lemmatized
+tf = {}
 
+def summary_tf(movie_id,summary):
+    
+    tf[movie_id] = {}
+    
+    for w in summary[movie_id]:
+        if tf[movie_id].has_key(w): 
+            tf[movie_id][w] += 1
+        else :
+            tf[movie_id][w] = 1
+
+
+def summary_idf(word,summary):
+    #tf_idf[movie_id]
+    
+   # print "idf"
+    N = len(summary.keys())
+    #print N
+
+    div = 0
+    for movie_id in summary.keys():
+        if tf[movie_id].has_key(word):
+            div += 1
+    #print div
+    return math.log(N+1/(1+div))   
 
 def processDb():
     
     cachedStopWords = stopwords.words("english")
+    stemmer = SnowballStemmer("english")
     
     persons = {}
     title = {}
     summary = {}
+    keywords = {}
     
     for id in range(1,1683):
         
@@ -253,61 +274,81 @@ def processDb():
         #Persons/names
         
         for director in movieJSON['Directors']:
-            persons[id].add(director)
+            persons[id].add(director.replace(" ", ""))
         
         #for writer in movieJSON['Writer']:
             #persons.add(writer)
         
-        
-        for actor in movieJSON['Cast'][:3]:
-            persons[id].add(actor)
+        c = 5 
+        for actor in movieJSON['Cast'][:c]:
+            persons[id].add(actor.replace(" ", ""))
                 
         for p in movieJSON['Plot']:
             summary[id] +=  p + ' '
                  
         summary[id] += movieJSON['Synopsis'].replace("\n\n", "") + ' '
         
+        
+        keywords[id] = set()
         for kw in movieJSON['Keywords']:
             for w in kw.split('-'):
-                summary[id] +=  w + ' '    
+                keywords[id].add(w)    
         
-        remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
-        no_punctuation = summary[id].translate(remove_punctuation_map)      
-        tokens = nltk.word_tokenize(no_punctuation)
+        #remove_punctuation_map = dict((ord(char), None) for char in string.punctuation)
+        #no_punctuation = summary[id].translate(remove_punctuation_map)      
+        #tokens = nltk.word_tokenize(no_punctuation)
         #print tokens
-        filtered = [w for w in tokens if not w in cachedStopWords]
+        
+        #filtered = [w for w in tokens if not w in cachedStopWords]
         #print filtered
         
-        summary[id] = [WordNetLemmatizer().lemmatize(w) for w in filtered]
+        #summary[id] = [stemmer.stem(w) for w in filtered]
         #print lemmatized
-        
-        for w in summary[id]:
-            if token_dict.has_key(w):
-                token_dict[w] += 1  
-                
-            else :
-                token_dict[w] = 1
+
+        #summary_tf(id,summary)
     
         print id
+        
     for id in range(1,1683):
         
         destinationPath = "./DB/ProcessedDB/%s.txt" % str(id)
         
-        N = len(token_dict.keys())
+        #w_tf_idf = set()
         
-        w_idf = [(w,math.log(N/token_dict[w])) for w in summary[id]] 
+        #if len(tf[id]) != 0:
+            #maxF =  max(tf[id].values())
         
-        temp = sorted(w_idf, key=lambda w: -w[1]) 
-        print temp
+        #for w in summary[id]:
+            #idf = summary_idf(w,summary) #w->idf, max idf
+            #_tf = 0.5 + ((0.5*tf[id][w])/maxF)
+            #tf_idf = _tf*idf
+            #w_tf_idf.add( (w, tf_idf) )
+    
+    
+        #sorted_list = sorted(w_tf_idf, key=lambda w: -w[1]) 
+        print id
+        
+        #middle = int(len(sorted_list)//2)
+        
+        #print "len %s" % (len(sorted_list))
+        #print "middle %s" % (middle)
+        #print "sorted_list %s" % (sorted_list)
+        
         #count = Counter(l)
         #temp = count.most_common(50)
         
-        s = set()
-        for (w,c) in temp[:50]:
-            s.add(w)
         
+        #k = len(sorted_list)*25//100
+        
+        #s = []
+        #for w,c in sorted_list[:25]:
+            #s.append(w)
+            
+        #print s
+     
         newFile = open(destinationPath,'w') 
-        newFile.write(( title[id] + ' '.join(persons[id]) +' ' + ' '.join(s)).encode('utf8'))
+        newFile.write((' '.join(keywords[id])).encode('utf8'))
         newFile.close()
+        #return
     
     

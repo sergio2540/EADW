@@ -126,7 +126,7 @@ def base_user(user):
         return b_u[user]
     
     mean = mean_rating()
-    lambda3 = 10
+    lambda3 = 20
     accum = 0
     movies = getMoviesRatedBy(user)
     
@@ -359,11 +359,15 @@ def prediction_test(test_path, error_analisys,c):
         
             n = lambda u,m: -1*baseline(u,m)
             pred_func = make_prediction_func(getMostSimilarMovies,n,baseline) 
-            r = c.evaluate(u,m)
             
-            if(r == -1):
-                r = pred_func(u,m)
-                continue
+            #r_content = c.evaluate(u,m)
+            r_collaborative = pred_func(u,m)
+            
+            #if(r_content != -1):
+                #r = 0.5*r_collaborative + 0.5*r_content
+            #else:
+            r = r_collaborative
+                
           
             #predicted_r = dataSet.predict(u,m)
             
@@ -403,13 +407,13 @@ if __name__ == "__main__":
     loader = Loader()
     dataSet = prediction_trainning(loader).data
     
-    
     #for u in range(1,943+1):
         #mu = dataSet.getMeanUser(u)
         #for m in range(1,1682+1):
             #mr = dataSet.getMeanMovie(m)
-            #dataSet.data.add((baseline(u,m), u,m))
-       # print u
+            #dataSet.data.add((baseline(u, m), u,m))
+       
+    # print u
             
     print "end"
     dataSet.make_svd()
